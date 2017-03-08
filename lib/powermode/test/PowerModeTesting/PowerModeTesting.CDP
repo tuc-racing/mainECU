@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Root>
+	<creator type="key">ControlDesk NG 5.4</creator>
+	<project>
+		<Creator type="key">ControlDesk NG</Creator>
+		<Name type="key">PowerModeTesting.CDP</Name>
+		<DisplayName type="key">PowerModeTesting</DisplayName>
+		<Flags type="key">4096</Flags>
+		<Type type="key">1</Type>
+		<UniqueID type="key">861513491</UniqueID>
+		<EntityID type="key">{B24455D5-1000-4AFA-B9EC-5811A6CE519E}</EntityID>
+		<ItemInfoDate type="key">04/03/2017 05:24:23 p. m.</ItemInfoDate>
+		<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+		<ItemInfoDescr type="key"/>
+		<ItemInfoAddInfoDb type="key"/>
+		<ItemInfoAuthor type="key">luis</ItemInfoAuthor>
+		<item>
+			<Targets type="key">project</Targets>
+			<Name type="key">PowerModeTesting</Name>
+			<DisplayName type="key">PowerModeTesting</DisplayName>
+			<Path type="key">..</Path>
+			<Flags type="key">4100</Flags>
+			<Type type="key">3</Type>
+			<UniqueID type="key">269486849</UniqueID>
+			<EntityID type="key">{06DB2D76-1762-41FF-94AB-10A8A3C04988}</EntityID>
+			<ItemInfoDate type="key">04/03/2017 05:24:23 p. m.</ItemInfoDate>
+			<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+			<ItemInfoDescr type="key"/>
+			<ItemInfoAddInfoDb type="key"/>
+			<ItemInfoAuthor type="key">luis</ItemInfoAuthor>
+			<item>
+				<Docs type="key">.doc,.docx,.pdf</Docs>
+				<Name type="key">Specifications</Name>
+				<DisplayName type="key">Specifications</DisplayName>
+				<Path type="key">.</Path>
+				<Type type="key">3</Type>
+				<UniqueID type="key">1037182161</UniqueID>
+				<EntityID type="key">{CDED1C8F-3D00-422D-8240-D3D939B80EA2}</EntityID>
+				<ItemInfoDate type="key">04/03/2017 05:24:23 p. m.</ItemInfoDate>
+				<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+				<ItemInfoDocs type="key">.doc,.docx,.pdf</ItemInfoDocs>
+				<ItemInfoDescr type="key"/>
+				<ItemInfoAddInfoDb type="key"/>
+				<ItemInfoAuthor type="key">luis</ItemInfoAuthor>
+			</item>
+			<item>
+				<Docs type="key">.mpp</Docs>
+				<Name type="key">Project Plans</Name>
+				<DisplayName type="key">Project Plans</DisplayName>
+				<Path type="key">.</Path>
+				<Type type="key">3</Type>
+				<UniqueID type="key">652153970</UniqueID>
+				<EntityID type="key">{4B28ADBD-CCA7-4752-9C42-CD01718D9387}</EntityID>
+				<ItemInfoDate type="key">04/03/2017 05:24:23 p. m.</ItemInfoDate>
+				<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+				<ItemInfoDocs type="key">.mpp</ItemInfoDocs>
+				<ItemInfoDescr type="key"/>
+				<ItemInfoAddInfoDb type="key"/>
+				<ItemInfoAuthor type="key">luis</ItemInfoAuthor>
+			</item>
+			<item>
+				<Targets type="key">datasetmanager_global</Targets>
+				<Name type="key">Global Data Sets</Name>
+				<DisplayName type="key">Global Data Sets</DisplayName>
+				<Path type="key">.</Path>
+				<Type type="key">29</Type>
+				<UniqueID type="key">920678722</UniqueID>
+				<EntityID type="key">{F3E8374A-CF3B-4E3F-A21B-9E5FECBCBE6F}</EntityID>
+				<ItemInfoDate type="key">04/03/2017 05:24:23 p. m.</ItemInfoDate>
+				<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+				<ItemInfoDescr type="key"/>
+				<ItemInfoAddInfoDb type="key"/>
+				<ItemInfoAuthor type="key">luis</ItemInfoAuthor>
+			</item>
+			<item>
+				<Targets type="key">variablesmanagement</Targets>
+				<Name type="key">Variable Descriptions</Name>
+				<DisplayName type="key">Variable Descriptions</DisplayName>
+				<Path type="key">.</Path>
+				<Flags type="key">256</Flags>
+				<Type type="key">3</Type>
+				<UniqueID type="key">175900597</UniqueID>
+				<EntityID type="key">{5DA531FA-1B73-4236-A96D-08BD86520620}</EntityID>
+				<ItemInfoDate type="key">04/03/2017 05:24:23 p. m.</ItemInfoDate>
+				<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+				<ItemInfoDescr type="key"/>
+				<ItemInfoAddInfoDb type="key"/>
+				<ItemInfoAuthor type="key">luis</ItemInfoAuthor>
+				<item>
+					<Component type="key">VariablesManagement</Component>
+					<Name type="key">PowerModeTesting.vdb</Name>
+					<DisplayName type="key">C:\Users\luis\Documents\tuc racing\Simulink_dspace\PowerModeTesting\Variable Descriptions\PowerModeTesting.vdb</DisplayName>
+					<Path type="key">.\Variable Descriptions</Path>
+					<Flags type="key">276</Flags>
+					<Type type="key">18</Type>
+					<UniqueID type="key">772315923</UniqueID>
+					<EntityID type="key">{D0E8E497-502E-4F6F-9A2A-3541EE37E3FE}</EntityID>
+					<ItemInfoDate type="key">04/03/2017 05:24:30 p. m.</ItemInfoDate>
+					<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+					<ItemInfoDescr type="key"/>
+					<ItemInfoAddInfoDb type="key"/>
+					<ItemInfoAuthor type="key">luis</ItemInfoAuthor>
+				</item>
+				<item>
+					<Component type="key">VariablesManagement</Component>
+					<Name type="key">test_powermode.sdf</Name>
+					<DisplayName type="key">test_powermode.sdf</DisplayName>
+					<Path type="key">.\Variable Descriptions\test_powermode.sdf</Path>
+					<Flags type="key">18704</Flags>
+					<Type type="key">7</Type>
+					<UniqueID type="key">56468380</UniqueID>
+					<EntityID type="key">{B0F85372-D4A9-4797-B54D-518F91183098}</EntityID>
+					<ItemInfoDate type="key">04/03/2017 05:24:26 p. m.</ItemInfoDate>
+					<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+					<ItemInfoDescr type="key"/>
+					<ItemInfoLog type="key">
+Original file added from ..\..\mainECU\test_powermode.sdf [2017-3-4 16:19:4 (UTC)]
+
+Variable description reloaded on 04.03.2017 18:22:54 (C:\Users\luis\Documents\tuc racing\mainECU\test_powermode.sdf)
+Original file added from ..\..\mainECU\test_powermode.sdf [2017-3-4 17:19:6 (UTC)]
+</ItemInfoLog>
+					<ItemInfoAddInfoDb type="key"/>
+					<ItemInfoAuthor type="key">luis</ItemInfoAuthor>
+					<item>
+						<Component type="key">VariablesManagement</Component>
+						<Name type="key">test_powermode.trc</Name>
+						<DisplayName type="key">test_powermode.trc</DisplayName>
+						<Path type="key">.\Variable Descriptions\test_powermode.sdf</Path>
+						<Flags type="key">18692</Flags>
+						<ExtendedFlags type="key">1</ExtendedFlags>
+						<Type type="key">4</Type>
+						<UniqueID type="key">486252751</UniqueID>
+						<EntityID type="key">{C6334DF8-6B69-4493-9A11-18235CCC5A7E}</EntityID>
+						<ItemInfoDate type="key">04/03/2017 06:22:54 p. m.</ItemInfoDate>
+						<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+						<ItemInfoDescr type="key"/>
+						<ItemInfoAddInfoDb type="key"/>
+						<ItemInfoAuthor type="key">luis</ItemInfoAuthor>
+					</item>
+					<item>
+						<Component type="key">VariablesManagement</Component>
+						<Name type="key">test_powermode.map</Name>
+						<DisplayName type="key">test_powermode.map</DisplayName>
+						<Path type="key">.\Variable Descriptions\test_powermode.sdf</Path>
+						<Flags type="key">18692</Flags>
+						<ExtendedFlags type="key">1</ExtendedFlags>
+						<Type type="key">4</Type>
+						<UniqueID type="key">25931443</UniqueID>
+						<EntityID type="key">{5BED80FD-33A6-4912-90E0-AE6293A6719B}</EntityID>
+						<ItemInfoDate type="key">04/03/2017 06:22:54 p. m.</ItemInfoDate>
+						<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+						<ItemInfoDescr type="key"/>
+						<ItemInfoAddInfoDb type="key"/>
+						<ItemInfoAuthor type="key">luis</ItemInfoAuthor>
+					</item>
+					<item>
+						<Component type="key">VariablesManagement</Component>
+						<Name type="key">test_powermode.ppc</Name>
+						<DisplayName type="key">test_powermode.ppc</DisplayName>
+						<Path type="key">.\Variable Descriptions\test_powermode.sdf</Path>
+						<Flags type="key">18692</Flags>
+						<ExtendedFlags type="key">1</ExtendedFlags>
+						<Type type="key">30</Type>
+						<UniqueID type="key">517864667</UniqueID>
+						<EntityID type="key">{A180FF10-6869-47BC-856D-C36C13EC1AC4}</EntityID>
+						<ItemInfoDate type="key">04/03/2017 06:22:54 p. m.</ItemInfoDate>
+						<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+						<ItemInfoDescr type="key"/>
+						<ItemInfoAddInfoDb type="key"/>
+						<ItemInfoAuthor type="key">luis</ItemInfoAuthor>
+					</item>
+					<item>
+						<Component type="key">VariablesManagement</Component>
+						<Name type="key">test_powermode.trz</Name>
+						<DisplayName type="key">test_powermode.trz</DisplayName>
+						<Path type="key">.\Variable Descriptions\test_powermode.sdf</Path>
+						<Flags type="key">18692</Flags>
+						<ExtendedFlags type="key">1</ExtendedFlags>
+						<Type type="key">4</Type>
+						<UniqueID type="key">432991379</UniqueID>
+						<EntityID type="key">{30CE489C-6E8D-469F-A81F-223EF9CF19C7}</EntityID>
+						<ItemInfoDate type="key">04/03/2017 06:22:54 p. m.</ItemInfoDate>
+						<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+						<ItemInfoDescr type="key"/>
+						<ItemInfoAddInfoDb type="key"/>
+						<ItemInfoAuthor type="key">luis</ItemInfoAuthor>
+					</item>
+				</item>
+			</item>
+			<item>
+				<Targets type="key">datasetmanager</Targets>
+				<Name type="key">Data Sets</Name>
+				<DisplayName type="key">Data Sets</DisplayName>
+				<Path type="key">.</Path>
+				<Flags type="key">4</Flags>
+				<Type type="key">29</Type>
+				<UniqueID type="key">564735064</UniqueID>
+				<EntityID type="key">{1B562CD0-F6C2-4160-A40E-4DC79B79D7E2}</EntityID>
+				<ItemInfoDate type="key">04/03/2017 05:24:23 p. m.</ItemInfoDate>
+				<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+				<ItemInfoDescr type="key"/>
+				<ItemInfoAddInfoDb type="key"/>
+				<ItemInfoAuthor type="key">luis</ItemInfoAuthor>
+			</item>
+			<item>
+				<Targets type="key">.vfe</Targets>
+				<Name type="key">Variable Filters</Name>
+				<DisplayName type="key">Variable Filters</DisplayName>
+				<Path type="key">.</Path>
+				<Flags type="key">2304</Flags>
+				<Type type="key">3</Type>
+				<UniqueID type="key">492518600</UniqueID>
+				<EntityID type="key">{2188F25E-DE13-4470-A3F0-6C6D97CAC94A}</EntityID>
+				<ItemInfoDate type="key">04/03/2017 05:24:23 p. m.</ItemInfoDate>
+				<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+				<ItemInfoDescr type="key"/>
+				<ItemInfoAddInfoDb type="key"/>
+				<ItemInfoAuthor type="key">luis</ItemInfoAuthor>
+			</item>
+			<item>
+				<Targets type="key">.lab</Targets>
+				<Docs type="key">.lab,.txt</Docs>
+				<Name type="key">Label Lists</Name>
+				<DisplayName type="key">Label Lists</DisplayName>
+				<Path type="key">.</Path>
+				<Type type="key">3</Type>
+				<UniqueID type="key">928039976</UniqueID>
+				<EntityID type="key">{1EEBF18D-7461-439A-8462-559441526C18}</EntityID>
+				<ItemInfoDate type="key">04/03/2017 05:24:23 p. m.</ItemInfoDate>
+				<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+				<ItemInfoDocs type="key">.lab,.txt</ItemInfoDocs>
+				<ItemInfoDescr type="key"/>
+				<ItemInfoAddInfoDb type="key"/>
+				<ItemInfoAuthor type="key">luis</ItemInfoAuthor>
+			</item>
+			<item>
+				<Targets type="key">devicemanagement,platformmanagement</Targets>
+				<Name type="key">Global Devices</Name>
+				<DisplayName type="key">Global Devices</DisplayName>
+				<Path type="key">.</Path>
+				<Type type="key">3</Type>
+				<UniqueID type="key">122597064</UniqueID>
+				<EntityID type="key">{F92B9810-5CC4-4057-BE51-9B8FA17A0FCE}</EntityID>
+				<ItemInfoDate type="key">04/03/2017 05:24:23 p. m.</ItemInfoDate>
+				<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+				<ItemInfoDescr type="key"/>
+				<ItemInfoAddInfoDb type="key"/>
+				<ItemInfoAuthor type="key">luis</ItemInfoAuthor>
+			</item>
+			<item>
+				<Targets type="key">interpreter,.py</Targets>
+				<Docs type="key">.py</Docs>
+				<Name type="key">Python Scripts</Name>
+				<DisplayName type="key">Python Scripts</DisplayName>
+				<Path type="key">.</Path>
+				<ExtendedFlags type="key">128</ExtendedFlags>
+				<Type type="key">3</Type>
+				<UniqueID type="key">1051012372</UniqueID>
+				<EntityID type="key">{F5F16632-0DCA-4250-B19A-C3CDE5813543}</EntityID>
+				<ItemInfoDate type="key">04/03/2017 05:24:23 p. m.</ItemInfoDate>
+				<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+				<ItemInfoDocs type="key">.py</ItemInfoDocs>
+				<ItemInfoDescr type="key"/>
+				<ItemInfoAddInfoDb type="key"/>
+				<ItemInfoAuthor type="key">luis</ItemInfoAuthor>
+			</item>
+			<item>
+				<Targets type="key">busnavigator,.xml</Targets>
+				<Name type="key">BusNavigator</Name>
+				<DisplayName type="key">BusNavigator</DisplayName>
+				<Path type="key">.</Path>
+				<Flags type="key">4</Flags>
+				<ExtendedFlags type="key">256</ExtendedFlags>
+				<Type type="key">3</Type>
+				<UniqueID type="key">293831082</UniqueID>
+				<EntityID type="key">{1B9D7D4B-7D56-47FA-BA06-BF1D960CA252}</EntityID>
+				<ItemInfoDate type="key">04/03/2017 05:24:23 p. m.</ItemInfoDate>
+				<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+				<ItemInfoDescr type="key"/>
+				<ItemInfoAddInfoDb type="key"/>
+				<ItemInfoAuthor type="key">luis</ItemInfoAuthor>
+			</item>
+			<item>
+				<Targets type="key">signaleditor</Targets>
+				<Name type="key">Signal Description Sets</Name>
+				<DisplayName type="key">Signal Description Sets</DisplayName>
+				<Path type="key">.</Path>
+				<Type type="key">3</Type>
+				<UniqueID type="key">874724462</UniqueID>
+				<EntityID type="key">{C3AB9A58-5AC0-402D-B56F-40D2510E4BC2}</EntityID>
+				<ItemInfoDate type="key">04/03/2017 05:24:23 p. m.</ItemInfoDate>
+				<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+				<ItemInfoDescr type="key"/>
+				<ItemInfoAddInfoDb type="key"/>
+				<ItemInfoAuthor type="key">luis</ItemInfoAuthor>
+			</item>
+		</item>
+		<item>
+			<Name type="key">Events</Name>
+			<DisplayName type="key">Events</DisplayName>
+			<Path type="key">.</Path>
+			<Flags type="key">4</Flags>
+			<Type type="key">3</Type>
+			<UniqueID type="key">8750389</UniqueID>
+			<EntityID type="key">{12F695CC-9C49-48A7-B34D-53122CBAF64B}</EntityID>
+			<ItemInfoDate type="key">04/03/2017 05:24:26 p. m.</ItemInfoDate>
+			<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+			<ItemInfoDescr type="key"/>
+			<ItemInfoAddInfoDb type="key"/>
+			<ItemInfoAuthor type="key">luis</ItemInfoAuthor>
+			<item>
+				<Name type="key">Project.events</Name>
+				<DisplayName type="key">Project.events</DisplayName>
+				<Path type="key">.\Events</Path>
+				<Flags type="key">4</Flags>
+				<Type type="key">52</Type>
+				<UniqueID type="key">779324458</UniqueID>
+				<EntityID type="key">{3AB46B8A-97C2-48EB-ABEA-280B74639C07}</EntityID>
+				<ItemInfoDate type="key">04/03/2017 05:24:26 p. m.</ItemInfoDate>
+				<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+				<ItemInfoDescr type="key"/>
+				<ItemInfoAddInfoDb type="key"/>
+				<ItemInfoAuthor type="key">luis</ItemInfoAuthor>
+			</item>
+		</item>
+	</project>
+	<experiments>
+		<experiment>
+			<Creator type="key">ControlDesk NG</Creator>
+			<Name type="key">Experiment_001.CDE</Name>
+			<DisplayName type="key">Experiment_001</DisplayName>
+			<Path type="key">.\Experiment_001</Path>
+			<Flags type="key">4096</Flags>
+			<Type type="key">2</Type>
+			<UniqueID type="key">359894319</UniqueID>
+			<EntityID type="key">{1CDA99E4-3429-4A5F-9118-2906CFECF7C5}</EntityID>
+			<ItemInfoDate type="key">04/03/2017 05:24:24 p. m.</ItemInfoDate>
+			<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+			<ItemInfoDescr type="key"/>
+			<ItemInfoAddInfoDb type="key"/>
+			<ItemInfoAuthor type="key">luis</ItemInfoAuthor>
+		</experiment>
+	</experiments>
+	<UserManager/>
+	<Interpreter/>
+	<VariablesManagement Version="70">
+		<CreatorVersion type="key">504000504</CreatorVersion>
+	</VariablesManagement>
+	<ProjectExperiment>
+		<LastActiveExperiment type="key">Experiment_001</LastActiveExperiment>
+	</ProjectExperiment>
+	<MeasuredDataNavigator/>
+	<MeasureDataManagement Version="4"/>
+	<Instrumentation Version="1">
+		<UniqueIds Version="3">
+			<Count type="key">1</Count>
+			<File1 type="key">Experiment_001/Layout1</File1>
+			<Id1 type="key">0</Id1>
+		</UniqueIds>
+	</Instrumentation>
+	<DiagnosticsManagement/>
+	<PlatformManagement Version="6"/>
+	<DataSetManager>
+		<Version>
+			<Version type="key">2</Version>
+		</Version>
+		<Work/>
+		<ActiveWork/>
+		<Reference/>
+		<ActiveReference/>
+		<Master/>
+		<ActiveMaster/>
+		<InitialMaster/>
+		<Incomplete/>
+		<IncompleteReadonly/>
+		<DataSet/>
+		<Readonly/>
+		<LabelListFilter>
+			<LabelListFilterFile type="key"/>
+			<LabelListFilterActive type="key">0</LabelListFilterActive>
+		</LabelListFilter>
+		<AutomaticDownload/>
+	</DataSetManager>
+</Root>

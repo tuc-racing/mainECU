@@ -24,6 +24,7 @@ old/
 # RTI generated folder
 mainECU_rti1401/
 test_powermode_rti1401
+*_rti1401*
 
 # RTI C generated code
 *.c

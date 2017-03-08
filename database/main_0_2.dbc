@@ -43,6 +43,18 @@ BO_ 3221225472 VECTOR__INDEPENDENT_SIG_MSG: 0 Vector__XXX
  SG_ Wheel_Susp_Front_Right : 0|16@0+ (1,0) [0|0] "" Vector__XXX
  SG_ Wheel_Susp_Front_Left : 0|16@0+ (1,0) [0|0] "" Vector__XXX
 
+BO_ 5 New_Message_20: 8 Vector__XXX
+ SG_ New_Signal_38 : 55|8@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 4 New_Message_19: 8 Vector__XXX
+ SG_ New_Signal_37 : 39|8@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 3 New_Message_18: 8 Vector__XXX
+ SG_ New_Signal_36 : 23|8@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 2 New_Message_17: 8 Vector__XXX
+ SG_ New_Signal_35 : 7|8@1+ (1,0) [0|0] "" Vector__XXX
+
 BO_ 1 Main_ECU: 8 Vector__XXX
 
 BO_ 1800 ciBox_Rear_Heartbeat: 8 ciBoxRear
@@ -83,10 +95,10 @@ BO_ 386 ciBox_Front_PDO1: 8 ciBoxFront
  SG_ Wheel_Speed_Front_Left : 7|16@0+ (1,0) [0|0] ""  MainECU
 
 BO_ 641 aiBox_Front_PDO2: 8 aiBoxFront
- SG_ Raw_Steering_Wheel_Signal : 55|16@0+ (1,0) [0|0] ""  MainECU
- SG_ Raw_Throttle_Pedal_2 : 39|16@0+ (1,0) [0|0] ""  MainECU
- SG_ Raw_Throttle_Pedal_1 : 23|16@0+ (1,0) [0|0] ""  MainECU
- SG_ Raw_Brake_Signal : 7|16@0+ (1,0) [0|0] ""  MainECU
+ SG_ Raw_Steering_Wheel_Signal : 48|16@1+ (1,0) [0|0] ""  MainECU
+ SG_ Raw_Throttle_Pedal_2 : 32|16@1+ (1,0) [0|0] ""  MainECU
+ SG_ Raw_Throttle_Pedal_1 : 16|16@1+ (1,0) [0|0] ""  MainECU
+ SG_ Raw_Brake_Signal : 0|16@1+ (1,0) [0|0] ""  MainECU
 
 BO_ 0 NM: 2 MainECU
  SG_ Node : 15|8@0+ (1,0) [0|0] ""  MainECU,aiBoxRear,ciBoxRear,ciBoxFront,aiBoxFront
@@ -234,12 +246,12 @@ BA_DEF_DEF_  "GenEnvVarEndingSnd" "_";
 BA_DEF_DEF_  "GenEnvVarEndingDsp" "Dsp_";
 BA_DEF_DEF_  "GenNWMSleepTime" 0;
 BA_DEF_DEF_  "BusType" "CAN";
-BA_ "GenMsgCycleTime" BO_ 641 20;
 BA_ "GenMsgSendType" BO_ 641 0;
+BA_ "GenMsgCycleTime" BO_ 641 20;
 BA_ "GenMsgCycleTime" BO_ 1793 1000;
-BA_ "GenMsgCycleTimeFast" BO_ 385 20;
-BA_ "GenMsgSendType" BO_ 385 0;
 BA_ "GenMsgCycleTime" BO_ 385 20;
+BA_ "GenMsgSendType" BO_ 385 0;
+BA_ "GenMsgCycleTimeFast" BO_ 385 20;
 VAL_ 1800 ciBox_Rear_HeartbeatStatus 127 "Pre-operational" 5 "Operational" 4 "Stopped" 1 "Off bus" 0 "Boot-up" ;
 VAL_ 1794 ciBox_Front_HeartbeatStatus 127 "Pre-operational" 5 "Operational" 4 "Stopped" 1 "Off bus" 0 "Boot-up" ;
 VAL_ 1796 aiBox_Rear_HeartbeatStatus 127 "Pre-operational" 5 "Operational" 4 "Stopped" 1 "Off bus" 0 "Boot-up" ;
