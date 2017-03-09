@@ -1,0 +1,30 @@
+LOG-file created by automatic CAN datafile reload
+Date: 09-Mar-2017 18:37:54
+
+The following method was used: "ReloadController"
+
+****************************************************************************************************
+RELOAD:
+Controller number: 1  Board/Module number:1  Board Type: CAN_Type1  GroupId: 1
+
+Data file: c:\users\luis\documents\tuc racing\mainecu\database\main_0_3.dbc
+
+Number of RTICAN message blocks which participated in the reload process: 2
+
+Number of RTICAN messages blocks which created at least one open connection: 0
+
+
+Number of RTICAN messages blocks which participated in the reload process but did not
+experience any changes in block in/outport configuration: 2
+block names: 
+"mainECU/MainCANRX/Function-Call
+Subsystem/aiBox_Front_PDO2"
+"mainECU/MainCANRX/Subsystem/aiBox_Rear_PDO2"
+
+Number of RTICAN messages blocks which did not participate in the reload process: 1
+block names :
+"mainECU/PowerMode/Chart/SendPreOperationalMessage/CAN_TYPE1_TX_M1_C1"
+
+****************************************************************************************************
+
+%EOF

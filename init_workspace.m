@@ -3,6 +3,7 @@
 
 clear;
 
+
 %% Type definitions
 Simulink.defineIntEnumType('PowerModes', ... 
 	{'StartUp', 'Idle', 'RTD', 'Faulted', 'Stopped', 'Undefined'}, ...
