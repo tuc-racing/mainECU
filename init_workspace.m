@@ -3,6 +3,7 @@
 
 clear;
 
+calibration_init;
 
 %% Type definitions
 Simulink.defineIntEnumType('PowerModes', ... 

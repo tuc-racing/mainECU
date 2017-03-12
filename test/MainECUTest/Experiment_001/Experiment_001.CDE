@@ -262,7 +262,7 @@
 		<CursorPositionLeftSL type="key">5</CursorPositionLeftSL>
 		<CursorPositionRightSL type="key">5</CursorPositionRightSL>
 		<VisibleLengthSL type="key">10</VisibleLengthSL>
-		<LastVisibleValueSL type="key">17.7924314817385</LastVisibleValueSL>
+		<LastVisibleValueSL type="key">3972.79821288178</LastVisibleValueSL>
 		<CompleteBufferVisibleSL type="key">0</CompleteBufferVisibleSL>
 		<GridEnabledSL type="key">0</GridEnabledSL>
 	</MeasuredDataNavigator>
@@ -338,14 +338,6 @@
 		<MeasurementConfiguration>
 			<NextUniqueKey type="key">4</NextUniqueKey>
 			<SignalList>
-				<Variable>
-					<Name type="key">Model Root/Logical\nOperator3/Out1</Name>
-					<Platform type="key">8bdbe6bc-762c-4118-a2ba-be73cb1b1830</Platform>
-					<Active type="key">-1</Active>
-					<Signal>
-						<Raster type="key">HostService</Raster>
-					</Signal>
-				</Variable>
 				<Variable>
 					<Name type="key">Model Root/MainCANRX/Function-Call\nSubsystem/aiBox_Front_PDO2/Raw_Brake_Signal</Name>
 					<Platform type="key">8bdbe6bc-762c-4118-a2ba-be73cb1b1830</Platform>
@@ -527,15 +519,6 @@
 						<RecordingFileType type="key">IDF Files (*.idf)</RecordingFileType>
 					</StorageInformation>
 					<SignalList>
-						<Variable>
-							<Name type="key">Model Root/Logical\nOperator3/Out1</Name>
-							<Platform type="key">8bdbe6bc-762c-4118-a2ba-be73cb1b1830</Platform>
-							<PlatformDisplayName type="key">Platform</PlatformDisplayName>
-							<Recorded type="key">-1</Recorded>
-							<Signal>
-								<Raster type="key">HostService</Raster>
-							</Signal>
-						</Variable>
 						<Variable>
 							<Name type="key">Model Root/MainCANRX/Function-Call\nSubsystem/aiBox_Front_PDO2/Raw_Brake_Signal</Name>
 							<Platform type="key">8bdbe6bc-762c-4118-a2ba-be73cb1b1830</Platform>

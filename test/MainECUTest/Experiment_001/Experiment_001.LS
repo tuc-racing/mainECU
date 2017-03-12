@@ -29,7 +29,7 @@
 					<ViewFlags type="key">1</ViewFlags>
 					<item>
 						<Name type="key">8bdbe6bc-762c-4118-a2ba-be73cb1b1830</Name>
-						<ViewFlags type="key">1</ViewFlags>
+						<ViewFlags type="key">65</ViewFlags>
 						<item>
 							<Name type="key">mainecu.sdf</Name>
 							<ViewFlags type="key">5</ViewFlags>

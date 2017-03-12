@@ -1,0 +1,253 @@
+VERSION ""
+
+
+NS_ : 
+	NS_DESC_
+	CM_
+	BA_DEF_
+	BA_
+	VAL_
+	CAT_DEF_
+	CAT_
+	FILTER
+	BA_DEF_DEF_
+	EV_DATA_
+	ENVVAR_DATA_
+	SGTYPE_
+	SGTYPE_VAL_
+	BA_DEF_SGTYPE_
+	BA_SGTYPE_
+	SIG_TYPE_REF_
+	VAL_TABLE_
+	SIG_GROUP_
+	SIG_VALTYPE_
+	SIGTYPE_VALTYPE_
+	BO_TX_BU_
+	BA_DEF_REL_
+	BA_REL_
+	BA_DEF_DEF_REL_
+	BU_SG_REL_
+	BU_EV_REL_
+	BU_BO_REL_
+	SG_MUL_VAL_
+
+BS_:
+
+BU_: ciBoxRear aiBoxRear Datalogger ciBoxFront aiBoxFront MainECU
+VAL_TABLE_ PowerMode 255 "Undefined" 4 "Stopped" 3 "Faulted" 2 "RTD" 1 "Idle" 0 "StartUp" ;
+VAL_TABLE_ NetworkMode 129 "Reset Node" 2 "Stop Node" 1 "Start Node" ;
+
+
+BO_ 3221225472 VECTOR__INDEPENDENT_SIG_MSG: 0 Vector__XXX
+ SG_ Raw_Wheel_Susp_Front_Right : 0|16@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Raw_Wheel_Susp_Front_Left : 0|16@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Wheel_Susp_Front_Right : 0|16@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ Wheel_Susp_Front_Left : 0|16@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 256 mainECU_Status: 2 MainECU
+ SG_ PowerMode : 7|8@0+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 1800 ciBox_Rear_Heartbeat: 8 ciBoxRear
+ SG_ ciBox_Rear_HeartbeatStatus : 0|8@1- (1,0) [0|0] ""  MainECU
+
+BO_ 136 ciBox_Rear_Emergency: 8 ciBoxFront
+ SG_ Emergency_ErrorCode_ciBox_rear : 47|8@0+ (1,0) [0|0] ""  MainECU
+ SG_ ErrorField_ci_Rear_Emergency : 7|40@0+ (1,0) [0|0] ""  MainECU
+
+BO_ 1794 ciBox_Front_Heartbeat: 8 ciBoxFront
+ SG_ ciBox_Front_HeartbeatStatus : 0|8@1- (1,0) [0|0] ""  MainECU
+
+BO_ 130 ciBox_Front_Emergency: 8 ciBoxFront
+ SG_ Emergency_ErrorCode_ciBox_front : 47|8@0+ (1,0) [0|0] ""  MainECU
+ SG_ ErrorField_ci_Front_Emergency : 7|40@0+ (1,0) [0|0] ""  MainECU
+
+BO_ 1796 aiBox_Rear_Heartbeat: 8 aiBoxRear
+ SG_ aiBox_Rear_HeartbeatStatus : 0|8@1- (1,0) [0|0] ""  MainECU
+
+BO_ 644 aiBox_Rear_PDO2: 8 aiBoxRear
+ SG_ Raw_Wheel_Susp_Rear_Right : 16|16@1+ (1,0) [0|0] ""  MainECU
+ SG_ Raw_Wheel_Susp_Rear_Left : 0|16@1+ (1,0) [0|0] ""  MainECU
+
+BO_ 132 aiBox_Rear_Emergency: 8 aiBoxRear
+ SG_ ErrorField_ai_Rear_Emergency : 23|40@0+ (1,0) [0|0] ""  MainECU
+ SG_ Emergency_ErrorCode_aiBox_rear : 7|16@0+ (1,0) [0|0] ""  MainECU
+
+BO_ 388 aiBox_Rear_PDO1: 8 aiBoxRear
+ SG_ Wheel_Susp_Rear_Left : 0|16@1+ (1,0) [0|0] ""  MainECU
+ SG_ Wheel_Susp_Rear_Right : 16|16@1+ (1,0) [0|0] ""  MainECU
+
+BO_ 392 ciBox_Rear_PDO1: 8 ciBoxRear
+ SG_ Wheel_Speed_Rear_Right : 16|16@1+ (1,0) [0|0] ""  MainECU
+ SG_ Wheel_Speed_Rear_Left : 0|16@1+ (1,0) [0|0] ""  MainECU
+
+BO_ 386 ciBox_Front_PDO1: 8 ciBoxFront
+ SG_ Wheel_Speed_Front_Right : 16|16@1+ (1,0) [0|0] ""  MainECU
+ SG_ Wheel_Speed_Front_Left : 0|16@1+ (1,0) [0|0] ""  MainECU
+
+BO_ 641 aiBox_Front_PDO2: 8 aiBoxFront
+ SG_ Raw_Steering_Wheel_Signal : 48|16@1+ (0.0036622,-120) [-120|120] "°"  MainECU
+ SG_ Raw_Throttle_Pedal_2 : 32|16@1+ (0.0015259,0) [0|100] ""  MainECU
+ SG_ Raw_Throttle_Pedal_1 : 16|16@1+ (0.0015259,0) [0|100] ""  MainECU
+ SG_ Raw_Brake_Signal : 0|16@1+ (0.0015259,0) [0|100] "%"  MainECU
+
+BO_ 0 NM: 2 MainECU
+ SG_ Node : 15|8@0+ (1,0) [0|0] ""  MainECU,aiBoxRear,ciBoxRear,ciBoxFront,aiBoxFront
+ SG_ Mode : 7|8@0+ (1,0) [0|0] ""  MainECU,aiBoxRear,ciBoxRear,ciBoxFront,aiBoxFront
+
+BO_ 1793 aiBox_Front_Heartbeat: 8 aiBoxFront
+ SG_ aiBox_Front_HeartbeatStatus : 7|8@0+ (1,0) [0|0] ""  MainECU
+
+BO_ 385 aiBox_Front_PDO1: 8 aiBoxFront
+ SG_ Steering_Wheel_Signal : 48|16@1+ (1,0) [0|0] ""  MainECU
+ SG_ Throttle_Pedal_2 : 32|16@1+ (1,0) [0|0] ""  MainECU
+ SG_ Throttle_Pedal_1 : 16|16@1+ (1,0) [0|0] ""  MainECU
+ SG_ Brake_Signal : 0|16@1+ (1,0) [0|0] ""  MainECU
+
+BO_ 129 aiBox_Front_Emergency: 8 aiBoxFront
+ SG_ ErrorField_ai_Front_Emergency : 31|40@0+ (1,0) [0|0] ""  MainECU
+ SG_ Emergency_ErrorCode_aiBox_front : 7|16@0+ (1,0) [0|0] ""  MainECU
+
+
+
+CM_ BO_ 3221225472 "This is a message for not used signals, created by Vector CANdb++ DBC OLE DB Provider.";
+BA_DEF_ EV_  "GenEnvAutoGenCtrl" ENUM  "No","Yes";
+BA_DEF_ EV_  "GenEnvControlType" ENUM  "NoControl","SliderHoriz","SliderVert","PushButton","Edit","BitmapSwitch";
+BA_DEF_ EV_  "GenEnvIsGeneratedSnd" ENUM  "No","Yes";
+BA_DEF_ EV_  "GenEnvMsgName" STRING ;
+BA_DEF_ EV_  "GenEnvMsgOffset" INT 0 2147483647;
+BA_DEF_ EV_  "GenEnvIsGeneratedDsp" ENUM  "No","Yes";
+BA_DEF_ SG_  "GenSigEnvVarType" ENUM  "int","float","undef";
+BA_DEF_ SG_  "NWM-WakeupAllowed" ENUM  "No","Yes";
+BA_DEF_ SG_  "GenSigPostIfSetting" STRING ;
+BA_DEF_ SG_  "GenSigPreIfSetting" STRING ;
+BA_DEF_ SG_  "GenSigConditionalSend" STRING ;
+BA_DEF_ SG_  "GenSigAssignSetting" STRING ;
+BA_DEF_ SG_  "GenSigPostSetting" STRING ;
+BA_DEF_ SG_  "GenSigPreSetting" STRING ;
+BA_DEF_ SG_  "GenSigEVName" STRING ;
+BA_DEF_ SG_  "GenSigReceiveSetting" STRING ;
+BA_DEF_ SG_  "GenSigAutoGenDsp" ENUM  "No","Yes";
+BA_DEF_ SG_  "GenSigStartValue" FLOAT 0 100000000000;
+BA_DEF_ SG_  "GenSigInactiveValue" INT 0 100000;
+BA_DEF_ SG_  "GenSigAutoGenSnd" ENUM  "No","Yes";
+BA_DEF_ SG_  "GenSigSendType" ENUM  "Cyclic","OnWrite","OnWriteWithRepetition","OnChange","OnChangeWithRepetition","IfActive","IfActiveWithRepetition";
+BA_DEF_ SG_  "GenSigAltSetting" STRING ;
+BA_DEF_ BO_  "GenMsgNrOfRepetition" INT 0 999999;
+BA_DEF_ BO_  "GenMsgAltSetting" STRING ;
+BA_DEF_ BO_  "GenMsgPostIfSetting" STRING ;
+BA_DEF_ BO_  "GenMsgPreIfSetting" STRING ;
+BA_DEF_ BO_  "GenMsgConditionalSend" STRING ;
+BA_DEF_ BO_  "GenMsgPostSetting" STRING ;
+BA_DEF_ BO_  "GenMsgPreSetting" STRING ;
+BA_DEF_ BO_  "GenMsgEVName" STRING ;
+BA_DEF_ BO_  "GenMsgAutoGenDsp" ENUM  "No","Yes";
+BA_DEF_ BO_  "GenMsgAutoGenSnd" ENUM  "No","Yes";
+BA_DEF_ BO_  "GenMsgDelayTime" INT 1 1000;
+BA_DEF_ BO_  "GenMsgCycleTime" INT 2 50000;
+BA_DEF_ BO_  "GenMsgSendType" ENUM  "Cyclic","not_used","not_used","not_used","not_used","Cyclic","not_used","IfActive";
+BA_DEF_ BO_  "DiagRequest" ENUM  "no","yes";
+BA_DEF_ BO_  "DiagResponse" ENUM  "no","yes";
+BA_DEF_ BO_  "NmMessage" ENUM  "no","yes";
+BA_DEF_ BO_  "GenMsgCycleTimeFast" INT 2 100000;
+BA_DEF_ BO_  "GenMsgILSupport" ENUM  "No","Yes";
+BA_DEF_ BO_  "GenMsgStartDelayTime" INT 0 100000;
+BA_DEF_ BO_  "GenMsgFastOnStart" INT 0 100000;
+BA_DEF_ BU_  "GenNodAutoGenDsp" ENUM  "No","Yes";
+BA_DEF_ BU_  "GenNodAutoGenSnd" ENUM  "No","Yes";
+BA_DEF_ BU_  "GenNodSleepTime" INT 0 1000000;
+BA_DEF_ BU_  "TpNodeBaseAddress" HEX 0 33554431;
+BA_DEF_ BU_  "TpUseFC" INT 0 1;
+BA_DEF_ BU_  "TpCanBus" INT 1 2;
+BA_DEF_ BU_  "TpRxMask" HEX 0 65535;
+BA_DEF_ BU_  "Diagnose-Stationsadresse" HEX 0 255;
+BA_DEF_ BU_  "TpRxIdentifier" HEX 0 536870911;
+BA_DEF_ BU_  "TpTxIdentifier" HEX 0 536870911;
+BA_DEF_ BU_  "NmNode" ENUM  "no","yes";
+BA_DEF_ BU_  "NmStationAddress" INT 0 63;
+BA_DEF_ BU_  "NodeLayerModules" STRING ;
+BA_DEF_ BU_  "ILUsed" ENUM  "Yes","No";
+BA_DEF_ BU_  "TpAddressingMode" INT 0 3;
+BA_DEF_  "NmBaseAddress" HEX 1024 1055;
+BA_DEF_  "GenEnvVarPrefix" STRING ;
+BA_DEF_  "GenEnvVarEndingSnd" STRING ;
+BA_DEF_  "GenEnvVarEndingDsp" STRING ;
+BA_DEF_  "GenNWMSleepTime" INT 0 1000000;
+BA_DEF_  "BusType" STRING ;
+BA_DEF_DEF_  "GenEnvAutoGenCtrl" "No";
+BA_DEF_DEF_  "GenEnvControlType" "";
+BA_DEF_DEF_  "GenEnvIsGeneratedSnd" "No";
+BA_DEF_DEF_  "GenEnvMsgName" "";
+BA_DEF_DEF_  "GenEnvMsgOffset" 0;
+BA_DEF_DEF_  "GenEnvIsGeneratedDsp" "No";
+BA_DEF_DEF_  "GenSigEnvVarType" "undef";
+BA_DEF_DEF_  "NWM-WakeupAllowed" "";
+BA_DEF_DEF_  "GenSigPostIfSetting" "";
+BA_DEF_DEF_  "GenSigPreIfSetting" "";
+BA_DEF_DEF_  "GenSigConditionalSend" "";
+BA_DEF_DEF_  "GenSigAssignSetting" "";
+BA_DEF_DEF_  "GenSigPostSetting" "";
+BA_DEF_DEF_  "GenSigPreSetting" "";
+BA_DEF_DEF_  "GenSigEVName" "";
+BA_DEF_DEF_  "GenSigReceiveSetting" "";
+BA_DEF_DEF_  "GenSigAutoGenDsp" "";
+BA_DEF_DEF_  "GenSigStartValue" 0;
+BA_DEF_DEF_  "GenSigInactiveValue" 0;
+BA_DEF_DEF_  "GenSigAutoGenSnd" "";
+BA_DEF_DEF_  "GenSigSendType" "Cyclic";
+BA_DEF_DEF_  "GenSigAltSetting" "";
+BA_DEF_DEF_  "GenMsgNrOfRepetition" 0;
+BA_DEF_DEF_  "GenMsgAltSetting" "";
+BA_DEF_DEF_  "GenMsgPostIfSetting" "";
+BA_DEF_DEF_  "GenMsgPreIfSetting" "";
+BA_DEF_DEF_  "GenMsgConditionalSend" "";
+BA_DEF_DEF_  "GenMsgPostSetting" "";
+BA_DEF_DEF_  "GenMsgPreSetting" "";
+BA_DEF_DEF_  "GenMsgEVName" "";
+BA_DEF_DEF_  "GenMsgAutoGenDsp" "";
+BA_DEF_DEF_  "GenMsgAutoGenSnd" "";
+BA_DEF_DEF_  "GenMsgDelayTime" 1;
+BA_DEF_DEF_  "GenMsgCycleTime" 2;
+BA_DEF_DEF_  "GenMsgSendType" "not_used";
+BA_DEF_DEF_  "DiagRequest" "no";
+BA_DEF_DEF_  "DiagResponse" "no";
+BA_DEF_DEF_  "NmMessage" "no";
+BA_DEF_DEF_  "GenMsgCycleTimeFast" 100;
+BA_DEF_DEF_  "GenMsgILSupport" "Yes";
+BA_DEF_DEF_  "GenMsgStartDelayTime" 0;
+BA_DEF_DEF_  "GenMsgFastOnStart" 0;
+BA_DEF_DEF_  "GenNodAutoGenDsp" "";
+BA_DEF_DEF_  "GenNodAutoGenSnd" "";
+BA_DEF_DEF_  "GenNodSleepTime" 0;
+BA_DEF_DEF_  "TpNodeBaseAddress" 1536;
+BA_DEF_DEF_  "TpUseFC" 1;
+BA_DEF_DEF_  "TpCanBus" 1;
+BA_DEF_DEF_  "TpRxMask" 255;
+BA_DEF_DEF_  "Diagnose-Stationsadresse" 0;
+BA_DEF_DEF_  "TpRxIdentifier" 1;
+BA_DEF_DEF_  "TpTxIdentifier" 1;
+BA_DEF_DEF_  "NmNode" "no";
+BA_DEF_DEF_  "NmStationAddress" 0;
+BA_DEF_DEF_  "NodeLayerModules" "oseknm01.dll";
+BA_DEF_DEF_  "ILUsed" "Yes";
+BA_DEF_DEF_  "TpAddressingMode" 1;
+BA_DEF_DEF_  "NmBaseAddress" 1024;
+BA_DEF_DEF_  "GenEnvVarPrefix" "Env";
+BA_DEF_DEF_  "GenEnvVarEndingSnd" "_";
+BA_DEF_DEF_  "GenEnvVarEndingDsp" "Dsp_";
+BA_DEF_DEF_  "GenNWMSleepTime" 0;
+BA_DEF_DEF_  "BusType" "CAN";
+BA_ "GenMsgSendType" BO_ 641 0;
+BA_ "GenMsgCycleTime" BO_ 641 20;
+BA_ "GenMsgCycleTime" BO_ 1793 1000;
+BA_ "GenMsgCycleTime" BO_ 385 20;
+BA_ "GenMsgSendType" BO_ 385 0;
+BA_ "GenMsgCycleTimeFast" BO_ 385 20;
+BA_ "GenSigStartValue" SG_ 256 PowerMode 255;
+BA_ "GenSigStartValue" SG_ 641 Raw_Steering_Wheel_Signal 32767.1891212932;
+VAL_ 256 PowerMode 255 "Undefined" 4 "Stopped" 3 "Faulted" 2 "RTD" 1 "Idle" 0 "StartUp" ;
+VAL_ 1800 ciBox_Rear_HeartbeatStatus 127 "Pre-operational" 5 "Operational" 4 "Stopped" 1 "Off bus" 0 "Boot-up" ;
+VAL_ 1794 ciBox_Front_HeartbeatStatus 127 "Pre-operational" 5 "Operational" 4 "Stopped" 1 "Off bus" 0 "Boot-up" ;
+VAL_ 1796 aiBox_Rear_HeartbeatStatus 127 "Pre-operational" 5 "Operational" 4 "Stopped" 1 "Off bus" 0 "Boot-up" ;
+VAL_ 0 Mode 129 "Reset Node" 2 "Stop Node" 1 "Start Node" ;
+VAL_ 1793 aiBox_Front_HeartbeatStatus 127 "Pre-operational" 5 "Operational" 4 "Stopped" 1 "Off bus" 0 "Boot-up" ;
+

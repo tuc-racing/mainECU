@@ -11,7 +11,7 @@ BMS_Avg_Cell_Temperature = 0.0; % (°C)
 
 % Thresholds
 BMS_CHARGING_TEMPERATURE_MAX_LIMIT = 50.0; % Maximum temperature while charging the car
-BMS_DISCHARGING_TEMPERATURE_MAX_LIMIT= 75.0; % Maximum temperature while discharging the battery
+BMS_DISCHARGING_TEMPERATURE_MAX_LIMIT= 60.0; % Maximum temperature while discharging the battery
 
 %% BMS Capacity
 
@@ -57,3 +57,8 @@ BMS_CELL_VOLTAGE_MIN_LIMIT = 2.5; % (Volts)
 BMS_CELL_VOLTAGE_MAX_LIMIT = 4.2; % (Volts)
 BMS_PACK_VOLTAGE_MIN_LIMIT = 355.0; % (Volts)
 BMS_PACK_VOLTAGE_MAX_LIMIT = 596.4; % (Volts)
+
+%% BMS Messages Timeouts
+
+% Thresholds
+BMS_MSG_STATUS_TIMEOUT = 50; % milliseconds
