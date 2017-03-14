@@ -85,10 +85,10 @@ BO_ 386 ciBox_Front_PDO1: 8 ciBoxFront
  SG_ Wheel_Speed_Front_Left : 0|16@1+ (1,0) [0|0] ""  MainECU
 
 BO_ 641 aiBox_Front_PDO2: 8 aiBoxFront
- SG_ Raw_Steering_Wheel_Signal : 48|16@1+ (0.0036622,-120) [-120|120] "°"  MainECU
- SG_ Raw_Throttle_Pedal_2 : 32|16@1+ (0.0015259,0) [0|100] ""  MainECU
- SG_ Raw_Throttle_Pedal_1 : 16|16@1+ (0.0015259,0) [0|100] ""  MainECU
- SG_ Raw_Brake_Signal : 0|16@1+ (0.0015259,0) [0|100] "%"  MainECU
+ SG_ Raw_Steering_Wheel_Signal : 48|16@1+ (1,0) [0|0] ""  MainECU
+ SG_ Raw_Throttle_Pedal_2 : 32|16@1+ (1,0) [0|0] ""  MainECU
+ SG_ Raw_Throttle_Pedal_1 : 16|16@1+ (1,0) [0|0] ""  MainECU
+ SG_ Raw_Brake_Signal : 0|16@1+ (1,0) [0|0] ""  MainECU
 
 BO_ 0 NM: 2 MainECU
  SG_ Node : 15|8@0+ (1,0) [0|0] ""  MainECU,aiBoxRear,ciBoxRear,ciBoxFront,aiBoxFront
@@ -98,10 +98,10 @@ BO_ 1793 aiBox_Front_Heartbeat: 8 aiBoxFront
  SG_ aiBox_Front_HeartbeatStatus : 7|8@0+ (1,0) [0|0] ""  MainECU
 
 BO_ 385 aiBox_Front_PDO1: 8 aiBoxFront
- SG_ Steering_Wheel_Signal : 48|16@1+ (1,0) [0|0] ""  MainECU
- SG_ Throttle_Pedal_2 : 32|16@1+ (1,0) [0|0] ""  MainECU
- SG_ Throttle_Pedal_1 : 16|16@1+ (1,0) [0|0] ""  MainECU
- SG_ Brake_Signal : 0|16@1+ (1,0) [0|0] ""  MainECU
+ SG_ Steering_Wheel_Signal : 48|16@1+ (0.0036622,-120) [-120|120] "°"  MainECU
+ SG_ Throttle_Pedal_2 : 32|16@1+ (0.0015259,0) [0|100] "%"  MainECU
+ SG_ Throttle_Pedal_1 : 16|16@1+ (0.0015259,0) [0|100] "%"  MainECU
+ SG_ Brake_Signal : 0|16@1+ (0.0015259,0) [0|100] "%"  MainECU
 
 BO_ 129 aiBox_Front_Emergency: 8 aiBoxFront
  SG_ ErrorField_ai_Front_Emergency : 31|40@0+ (1,0) [0|0] ""  MainECU
@@ -236,14 +236,15 @@ BA_DEF_DEF_  "GenEnvVarEndingSnd" "_";
 BA_DEF_DEF_  "GenEnvVarEndingDsp" "Dsp_";
 BA_DEF_DEF_  "GenNWMSleepTime" 0;
 BA_DEF_DEF_  "BusType" "CAN";
-BA_ "GenMsgSendType" BO_ 641 0;
 BA_ "GenMsgCycleTime" BO_ 641 20;
+BA_ "GenMsgSendType" BO_ 641 0;
 BA_ "GenMsgCycleTime" BO_ 1793 1000;
-BA_ "GenMsgCycleTime" BO_ 385 20;
-BA_ "GenMsgSendType" BO_ 385 0;
 BA_ "GenMsgCycleTimeFast" BO_ 385 20;
+BA_ "GenMsgSendType" BO_ 385 0;
+BA_ "GenMsgCycleTime" BO_ 385 20;
 BA_ "GenSigStartValue" SG_ 256 PowerMode 255;
-BA_ "GenSigStartValue" SG_ 641 Raw_Steering_Wheel_Signal 32767.1891212932;
+BA_ "GenSigStartValue" SG_ 641 Raw_Steering_Wheel_Signal 0;
+BA_ "GenSigStartValue" SG_ 385 Steering_Wheel_Signal 32767.1891212932;
 VAL_ 256 PowerMode 255 "Undefined" 4 "Stopped" 3 "Faulted" 2 "RTD" 1 "Idle" 0 "StartUp" ;
 VAL_ 1800 ciBox_Rear_HeartbeatStatus 127 "Pre-operational" 5 "Operational" 4 "Stopped" 1 "Off bus" 0 "Boot-up" ;
 VAL_ 1794 ciBox_Front_HeartbeatStatus 127 "Pre-operational" 5 "Operational" 4 "Stopped" 1 "Off bus" 0 "Boot-up" ;
