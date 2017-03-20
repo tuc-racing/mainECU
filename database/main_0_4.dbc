@@ -33,7 +33,9 @@ NS_ :
 
 BS_:
 
-BU_: ciBoxRear aiBoxRear Datalogger ciBoxFront aiBoxFront MainECU
+BU_: Dashboard ciBoxRear aiBoxRear Datalogger ciBoxFront aiBoxFront MainECU
+VAL_TABLE_ TSAL_Status 3 "Undefined" 2 "Faulted" 1 "Active" 0 "Inactive" ;
+VAL_TABLE_ Status 3 "Undefined" 2 "Reserved" 1 "Faulted" 0 "Ok" ;
 VAL_TABLE_ PowerMode 255 "Undefined" 4 "Stopped" 3 "Faulted" 2 "RTD" 1 "Idle" 0 "StartUp" ;
 VAL_TABLE_ NetworkMode 129 "Reset Node" 2 "Stop Node" 1 "Start Node" ;
 
@@ -44,7 +46,13 @@ BO_ 3221225472 VECTOR__INDEPENDENT_SIG_MSG: 0 Vector__XXX
  SG_ Wheel_Susp_Front_Right : 0|16@1+ (1,0) [0|0] "" Vector__XXX
  SG_ Wheel_Susp_Front_Left : 0|16@1+ (1,0) [0|0] "" Vector__XXX
 
-BO_ 256 mainECU_Status: 2 MainECU
+BO_ 1792 Dashboard_Inputs: 4 Vector__XXX
+
+BO_ 257 mainECU_Status: 2 MainECU
+ SG_ TSAL_Status : 15|2@0- (1,0) [0|0] "" Vector__XXX
+ SG_ BMS_Status : 11|2@0- (1,0) [0|0] "" Vector__XXX
+ SG_ BSPD_Status : 13|2@0- (1,0) [0|0] "" Vector__XXX
+ SG_ IMD_Status : 9|2@0- (1,0) [0|0] "" Vector__XXX
  SG_ PowerMode : 7|8@0+ (1,0) [0|0] "" Vector__XXX
 
 BO_ 1800 ciBox_Rear_Heartbeat: 8 ciBoxRear
@@ -236,16 +244,19 @@ BA_DEF_DEF_  "GenEnvVarEndingSnd" "_";
 BA_DEF_DEF_  "GenEnvVarEndingDsp" "Dsp_";
 BA_DEF_DEF_  "GenNWMSleepTime" 0;
 BA_DEF_DEF_  "BusType" "CAN";
-BA_ "GenMsgCycleTime" BO_ 641 20;
 BA_ "GenMsgSendType" BO_ 641 0;
+BA_ "GenMsgCycleTime" BO_ 641 20;
 BA_ "GenMsgCycleTime" BO_ 1793 1000;
-BA_ "GenMsgCycleTimeFast" BO_ 385 20;
-BA_ "GenMsgSendType" BO_ 385 0;
 BA_ "GenMsgCycleTime" BO_ 385 20;
-BA_ "GenSigStartValue" SG_ 256 PowerMode 255;
+BA_ "GenMsgSendType" BO_ 385 0;
+BA_ "GenMsgCycleTimeFast" BO_ 385 20;
+BA_ "GenSigStartValue" SG_ 257 PowerMode 255;
 BA_ "GenSigStartValue" SG_ 641 Raw_Steering_Wheel_Signal 0;
 BA_ "GenSigStartValue" SG_ 385 Steering_Wheel_Signal 32767.1891212932;
-VAL_ 256 PowerMode 255 "Undefined" 4 "Stopped" 3 "Faulted" 2 "RTD" 1 "Idle" 0 "StartUp" ;
+VAL_ 257 BMS_Status 3 "Undefined" 2 "Reserved" 1 "Faulted" 0 "Ok" ;
+VAL_ 257 BSPD_Status 3 "Undefined" 2 "Reserved" 1 "Faulted" 0 "Ok" ;
+VAL_ 257 IMD_Status 3 "Undefined" 2 "Reserved" 1 "Faulted" 0 "Ok" ;
+VAL_ 257 PowerMode 255 "Undefined" 4 "Stopped" 3 "Faulted" 2 "RTD" 1 "Idle" 0 "StartUp" ;
 VAL_ 1800 ciBox_Rear_HeartbeatStatus 127 "Pre-operational" 5 "Operational" 4 "Stopped" 1 "Off bus" 0 "Boot-up" ;
 VAL_ 1794 ciBox_Front_HeartbeatStatus 127 "Pre-operational" 5 "Operational" 4 "Stopped" 1 "Off bus" 0 "Boot-up" ;
 VAL_ 1796 aiBox_Rear_HeartbeatStatus 127 "Pre-operational" 5 "Operational" 4 "Stopped" 1 "Off bus" 0 "Boot-up" ;

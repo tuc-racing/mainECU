@@ -178,6 +178,27 @@ Original file added from ..\..\mainecu.sdf [2017-3-13 19:23:17 (UTC)]
 
 Variable description reloaded on 14.03.2017 15:59:44 (C:\Users\luis\Documents\tuc racing\mainECU\mainecu.sdf)
 Original file added from ..\..\mainecu.sdf [2017-3-14 14:14:8 (UTC)]
+
+Variable description reloaded on 14.03.2017 18:41:08 (C:\Users\luis\Documents\tuc racing\mainECU\mainecu.sdf)
+Original file added from ..\..\mainecu.sdf [2017-3-14 17:39:12 (UTC)]
+
+Variable description reloaded on 14.03.2017 18:48:02 (C:\Users\luis\Documents\tuc racing\mainECU\mainecu.sdf)
+Original file added from ..\..\mainecu.sdf [2017-3-14 17:46:47 (UTC)]
+
+Variable description reloaded on 14.03.2017 18:52:08 (C:\Users\luis\Documents\tuc racing\mainECU\mainecu.sdf)
+Original file added from ..\..\mainecu.sdf [2017-3-14 17:50:35 (UTC)]
+
+Variable description reloaded on 14.03.2017 19:03:01 (C:\Users\luis\Documents\tuc racing\mainECU\mainecu.sdf)
+Original file added from ..\..\mainecu.sdf [2017-3-14 18:0:6 (UTC)]
+
+Variable description reloaded on 14.03.2017 19:06:28 (C:\Users\luis\Documents\tuc racing\mainECU\mainecu.sdf)
+Original file added from ..\..\mainecu.sdf [2017-3-14 18:5:52 (UTC)]
+
+Variable description reloaded on 14.03.2017 19:10:20 (C:\Users\luis\Documents\tuc racing\mainECU\mainecu.sdf)
+Original file added from ..\..\mainecu.sdf [2017-3-14 18:9:24 (UTC)]
+
+Variable description reloaded on 17.03.2017 20:16:58 (C:\Users\luis\Documents\tuc racing\mainECU\mainecu.sdf)
+Original file added from ..\..\mainecu.sdf [2017-3-17 19:8:4 (UTC)]
 </ItemInfoLog>
 					<ItemInfoAddInfoDb type="key"/>
 					<ItemInfoAuthor type="key">luis</ItemInfoAuthor>
@@ -189,9 +210,9 @@ Original file added from ..\..\mainecu.sdf [2017-3-14 14:14:8 (UTC)]
 						<Flags type="key">18692</Flags>
 						<ExtendedFlags type="key">1</ExtendedFlags>
 						<Type type="key">4</Type>
-						<UniqueID type="key">376935993</UniqueID>
-						<EntityID type="key">{EEBAD1DF-BF47-419D-9F04-1A8D142ACB3B}</EntityID>
-						<ItemInfoDate type="key">14/03/2017 03:59:44 p. m.</ItemInfoDate>
+						<UniqueID type="key">798194503</UniqueID>
+						<EntityID type="key">{1BE3A014-8C55-47D6-9630-26F54368BEAD}</EntityID>
+						<ItemInfoDate type="key">17/03/2017 08:16:58 p. m.</ItemInfoDate>
 						<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
 						<ItemInfoDescr type="key"/>
 						<ItemInfoAddInfoDb type="key"/>
@@ -205,9 +226,9 @@ Original file added from ..\..\mainecu.sdf [2017-3-14 14:14:8 (UTC)]
 						<Flags type="key">18692</Flags>
 						<ExtendedFlags type="key">1</ExtendedFlags>
 						<Type type="key">4</Type>
-						<UniqueID type="key">554808367</UniqueID>
-						<EntityID type="key">{9CA150AD-DEE9-46A8-A9EE-6E0815248E58}</EntityID>
-						<ItemInfoDate type="key">14/03/2017 03:59:44 p. m.</ItemInfoDate>
+						<UniqueID type="key">279480664</UniqueID>
+						<EntityID type="key">{F59A8268-79EC-4856-959F-1BB21F34B9A9}</EntityID>
+						<ItemInfoDate type="key">17/03/2017 08:16:58 p. m.</ItemInfoDate>
 						<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
 						<ItemInfoDescr type="key"/>
 						<ItemInfoAddInfoDb type="key"/>
@@ -221,9 +242,9 @@ Original file added from ..\..\mainecu.sdf [2017-3-14 14:14:8 (UTC)]
 						<Flags type="key">18692</Flags>
 						<ExtendedFlags type="key">1</ExtendedFlags>
 						<Type type="key">30</Type>
-						<UniqueID type="key">418597387</UniqueID>
-						<EntityID type="key">{18147A97-5029-4CC3-9699-5AA762F08B80}</EntityID>
-						<ItemInfoDate type="key">14/03/2017 03:59:44 p. m.</ItemInfoDate>
+						<UniqueID type="key">934238576</UniqueID>
+						<EntityID type="key">{640E3F9B-0548-4F3B-A6F8-35F04A1FF0A1}</EntityID>
+						<ItemInfoDate type="key">17/03/2017 08:16:58 p. m.</ItemInfoDate>
 						<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
 						<ItemInfoDescr type="key"/>
 						<ItemInfoAddInfoDb type="key"/>
@@ -237,9 +258,9 @@ Original file added from ..\..\mainecu.sdf [2017-3-14 14:14:8 (UTC)]
 						<Flags type="key">18692</Flags>
 						<ExtendedFlags type="key">1</ExtendedFlags>
 						<Type type="key">4</Type>
-						<UniqueID type="key">492087490</UniqueID>
-						<EntityID type="key">{E9EF2B66-76E2-4151-BA8D-8D7F7C1C7CBB}</EntityID>
-						<ItemInfoDate type="key">14/03/2017 03:59:44 p. m.</ItemInfoDate>
+						<UniqueID type="key">83088193</UniqueID>
+						<EntityID type="key">{7AF9BCDD-F9D9-42F5-8F61-BCE7DAF7EFC4}</EntityID>
+						<ItemInfoDate type="key">17/03/2017 08:16:58 p. m.</ItemInfoDate>
 						<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
 						<ItemInfoDescr type="key"/>
 						<ItemInfoAddInfoDb type="key"/>
