@@ -61,7 +61,7 @@ BMS_PACK_VOLTAGE_MAX_LIMIT = 596.4; % (Volts)
 %% BMS Messages Timeouts
 
 % Thresholds
-BMS_MSG_STATUS_TIMEOUT = 50; % milliseconds
+BMS_MSG_STATUS_TIMEOUT = 55; % milliseconds
 
 %% Sensor calibration values
 % Contains the values for the sensors

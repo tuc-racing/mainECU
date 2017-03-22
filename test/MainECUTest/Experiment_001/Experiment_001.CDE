@@ -262,7 +262,7 @@
 		<CursorPositionLeftSL type="key">5</CursorPositionLeftSL>
 		<CursorPositionRightSL type="key">5</CursorPositionRightSL>
 		<VisibleLengthSL type="key">10</VisibleLengthSL>
-		<LastVisibleValueSL type="key">53.8960583733036</LastVisibleValueSL>
+		<LastVisibleValueSL type="key">791.338728330819</LastVisibleValueSL>
 		<CompleteBufferVisibleSL type="key">0</CompleteBufferVisibleSL>
 		<GridEnabledSL type="key">0</GridEnabledSL>
 	</MeasuredDataNavigator>
@@ -336,7 +336,7 @@
 			<ShowMeasurementLinks type="key">0</ShowMeasurementLinks>
 		</ProjectExperimentSettings>
 		<MeasurementConfiguration>
-			<NextUniqueKey type="key">4</NextUniqueKey>
+			<NextUniqueKey type="key">6</NextUniqueKey>
 			<SignalList>
 				<Variable>
 					<Name type="key">Labels/BrakeTravel</Name>
@@ -362,41 +362,20 @@
 						<Raster type="key">HostService</Raster>
 					</Signal>
 				</Variable>
+				<Variable>
+					<Name type="key">Labels/ThrottlePedalImplausibilityStatus</Name>
+					<Platform type="key">8bdbe6bc-762c-4118-a2ba-be73cb1b1830</Platform>
+					<Active type="key">-1</Active>
+					<Signal>
+						<Raster type="key">HostService</Raster>
+					</Signal>
+				</Variable>
 			</SignalList>
 			<Platforms>
 				<Platform>
 					<Name type="key">8bdbe6bc-762c-4118-a2ba-be73cb1b1830</Name>
 					<DefaultRaster type="key">HostService</DefaultRaster>
-					<PlatformTriggers>
-						<PlatformTrigger>
-							<UniqueKey type="key">2</UniqueKey>
-							<Name type="key">Platform Trigger 1</Name>
-							<Condition type="key">posedge ( aiBox_Front_PDO2_Raw_Brake_Signal, 0 )</Condition>
-							<Delay type="key">0</Delay>
-							<Enabled type="key">0</Enabled>
-							<Timeout type="key">0</Timeout>
-							<TimeoutEnabled type="key">0</TimeoutEnabled>
-							<VariableMappings>
-								<Platform type="key">8bdbe6bc-762c-4118-a2ba-be73cb1b1830</Platform>
-								<VariableMapping>
-									<Symbol type="key">aiBox_Front_PDO2_Raw_Brake_Signal</Symbol>
-									<Signal type="key">Model Root/MainCANRX/Function-Call\nSubsystem/aiBox_Front_PDO2/Raw_Brake_Signal</Signal>
-								</VariableMapping>
-								<VariableMapping>
-									<Symbol type="key">aiBox_Front_PDO2_Raw_Steering_Wheel_Signal</Symbol>
-									<Signal type="key">Model Root/MainCANRX/Function-Call\nSubsystem/aiBox_Front_PDO2/Raw_Steering_Wheel_Signal</Signal>
-								</VariableMapping>
-								<VariableMapping>
-									<Symbol type="key">aiBox_Front_PDO2_Raw_Throttle_Pedal_1</Symbol>
-									<Signal type="key">Model Root/MainCANRX/Function-Call\nSubsystem/aiBox_Front_PDO2/Raw_Throttle_Pedal_1</Signal>
-								</VariableMapping>
-								<VariableMapping>
-									<Symbol type="key">aiBox_Front_PDO2_Raw_Throttle_Pedal_2</Symbol>
-									<Signal type="key">Model Root/MainCANRX/Function-Call\nSubsystem/aiBox_Front_PDO2/Raw_Throttle_Pedal_2</Signal>
-								</VariableMapping>
-							</VariableMappings>
-						</PlatformTrigger>
-					</PlatformTriggers>
+					<PlatformTriggers/>
 					<Rasters>
 						<PlatformTriggered>
 							<Name type="key">HostService</Name>
@@ -404,8 +383,8 @@
 							<AutoRepeatBehavior type="key">1</AutoRepeatBehavior>
 							<MultiCaptureHistoryEnabled type="key">0</MultiCaptureHistoryEnabled>
 							<DownsamplingFactor type="key">1</DownsamplingFactor>
-							<StartTrigger type="key">2</StartTrigger>
-							<StopTrigger type="key">3</StopTrigger>
+							<StartTrigger type="key">4</StartTrigger>
+							<StopTrigger type="key">5</StopTrigger>
 						</PlatformTriggered>
 					</Rasters>
 					<EnabledHardwarePollingRasters/>
@@ -413,7 +392,7 @@
 			</Platforms>
 			<DurationTriggers>
 				<DurationTrigger>
-					<UniqueKey type="key">3</UniqueKey>
+					<UniqueKey type="key">5</UniqueKey>
 					<Name type="key">Duration Trigger 1</Name>
 					<Delay type="key">0</Delay>
 					<Duration type="key">60</Duration>
@@ -531,6 +510,15 @@
 						</Variable>
 						<Variable>
 							<Name type="key">Labels/ThrottlePedal2</Name>
+							<Platform type="key">8bdbe6bc-762c-4118-a2ba-be73cb1b1830</Platform>
+							<PlatformDisplayName type="key">Platform</PlatformDisplayName>
+							<Recorded type="key">-1</Recorded>
+							<Signal>
+								<Raster type="key">HostService</Raster>
+							</Signal>
+						</Variable>
+						<Variable>
+							<Name type="key">Labels/ThrottlePedalImplausibilityStatus</Name>
 							<Platform type="key">8bdbe6bc-762c-4118-a2ba-be73cb1b1830</Platform>
 							<PlatformDisplayName type="key">Platform</PlatformDisplayName>
 							<Recorded type="key">-1</Recorded>

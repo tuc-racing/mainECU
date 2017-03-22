@@ -2,9 +2,6 @@
 %   Initializes the power mode block variables.
 %   This variables are used to test the power mode block.
 %
-clear;
-init_workspace;
-
 
 %% Power Mode variables
 SteeringWheelAngle = 0;

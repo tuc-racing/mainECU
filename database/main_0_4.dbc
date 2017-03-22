@@ -253,6 +253,7 @@ BA_ "GenMsgCycleTimeFast" BO_ 385 20;
 BA_ "GenSigStartValue" SG_ 257 PowerMode 255;
 BA_ "GenSigStartValue" SG_ 641 Raw_Steering_Wheel_Signal 0;
 BA_ "GenSigStartValue" SG_ 385 Steering_Wheel_Signal 32767.1891212932;
+VAL_ 257 TSAL_Status 3 "Undefined" 2 "Faulted" 1 "Active" 0 "Inactive" ;
 VAL_ 257 BMS_Status 3 "Undefined" 2 "Reserved" 1 "Faulted" 0 "Ok" ;
 VAL_ 257 BSPD_Status 3 "Undefined" 2 "Reserved" 1 "Faulted" 0 "Ok" ;
 VAL_ 257 IMD_Status 3 "Undefined" 2 "Reserved" 1 "Faulted" 0 "Ok" ;
