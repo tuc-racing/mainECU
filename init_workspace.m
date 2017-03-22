@@ -45,3 +45,4 @@ Simulink.defineIntEnumType('MsgStatus', ...
 %% Initialization scripts
 calibration_init;
 indicators_init;
+maincanrx_init;

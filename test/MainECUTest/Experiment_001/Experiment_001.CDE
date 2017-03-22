@@ -73,6 +73,21 @@
 					<ItemInfoAddInfoDb type="key"/>
 					<ItemInfoAuthor type="key">luis</ItemInfoAuthor>
 				</item>
+				<item>
+					<Component type="key">Instrumentation</Component>
+					<Name type="key">Layout2.lay</Name>
+					<DisplayName type="key">Layout2.lay</DisplayName>
+					<Path type="key">.\Experiment Layouts</Path>
+					<Flags type="key">16448</Flags>
+					<Type type="key">10</Type>
+					<UniqueID type="key">629645932</UniqueID>
+					<EntityID type="key">{ED6D49EA-7D90-4561-BB0A-6969356D0527}</EntityID>
+					<ItemInfoDate type="key">22/03/2017 02:47:51 p. m.</ItemInfoDate>
+					<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+					<ItemInfoDescr type="key"/>
+					<ItemInfoAddInfoDb type="key"/>
+					<ItemInfoAuthor type="key">luis</ItemInfoAuthor>
+				</item>
 			</item>
 			<item>
 				<Targets type="key">devicemanagement,platformmanagement,diagnosticsmanagement</Targets>
@@ -262,7 +277,7 @@
 		<CursorPositionLeftSL type="key">5</CursorPositionLeftSL>
 		<CursorPositionRightSL type="key">5</CursorPositionRightSL>
 		<VisibleLengthSL type="key">10</VisibleLengthSL>
-		<LastVisibleValueSL type="key">791.338728330819</LastVisibleValueSL>
+		<LastVisibleValueSL type="key">16902.4791698741</LastVisibleValueSL>
 		<CompleteBufferVisibleSL type="key">0</CompleteBufferVisibleSL>
 		<GridEnabledSL type="key">0</GridEnabledSL>
 	</MeasuredDataNavigator>
