@@ -247,6 +247,12 @@ Original file added from ..\..\mainecu.sdf [2017-3-21 20:37:30 (UTC)]
 
 Variable description reloaded on 22.03.2017 15:24:18 (C:\Users\luis\Documents\tuc racing\mainECU\mainecu.sdf)
 Original file added from ..\..\mainecu.sdf [2017-3-22 14:16:14 (UTC)]
+
+Variable description reloaded on 24.03.2017 18:27:28 (C:\Users\luis\Documents\tuc racing\mainECU\mainecu.sdf)
+Original file added from ..\..\mainecu.sdf [2017-3-24 17:26:3 (UTC)]
+
+Variable description reloaded on 24.03.2017 18:42:04 (C:\Users\luis\Documents\tuc racing\mainECU\mainecu.sdf)
+Original file added from ..\..\mainecu.sdf [2017-3-24 17:41:0 (UTC)]
 </ItemInfoLog>
 					<ItemInfoAddInfoDb type="key"/>
 					<ItemInfoAuthor type="key">luis</ItemInfoAuthor>
@@ -258,9 +264,9 @@ Original file added from ..\..\mainecu.sdf [2017-3-22 14:16:14 (UTC)]
 						<Flags type="key">18692</Flags>
 						<ExtendedFlags type="key">1</ExtendedFlags>
 						<Type type="key">4</Type>
-						<UniqueID type="key">788675031</UniqueID>
-						<EntityID type="key">{322DCD20-8CE7-45C5-903E-EA24BA3A4F0E}</EntityID>
-						<ItemInfoDate type="key">22/03/2017 03:24:17 p. m.</ItemInfoDate>
+						<UniqueID type="key">617978963</UniqueID>
+						<EntityID type="key">{664DCBE8-C3E7-453F-B4DB-0D06FB0415E0}</EntityID>
+						<ItemInfoDate type="key">24/03/2017 06:42:04 p. m.</ItemInfoDate>
 						<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
 						<ItemInfoDescr type="key"/>
 						<ItemInfoAddInfoDb type="key"/>
@@ -274,9 +280,9 @@ Original file added from ..\..\mainecu.sdf [2017-3-22 14:16:14 (UTC)]
 						<Flags type="key">18692</Flags>
 						<ExtendedFlags type="key">1</ExtendedFlags>
 						<Type type="key">4</Type>
-						<UniqueID type="key">925927485</UniqueID>
-						<EntityID type="key">{71BCC199-0924-4819-900C-EC4BBEC5B1F4}</EntityID>
-						<ItemInfoDate type="key">22/03/2017 03:24:17 p. m.</ItemInfoDate>
+						<UniqueID type="key">693401818</UniqueID>
+						<EntityID type="key">{0AB79DBE-0735-4189-A5E1-5F0CD19914E9}</EntityID>
+						<ItemInfoDate type="key">24/03/2017 06:42:04 p. m.</ItemInfoDate>
 						<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
 						<ItemInfoDescr type="key"/>
 						<ItemInfoAddInfoDb type="key"/>
@@ -290,9 +296,9 @@ Original file added from ..\..\mainecu.sdf [2017-3-22 14:16:14 (UTC)]
 						<Flags type="key">18692</Flags>
 						<ExtendedFlags type="key">1</ExtendedFlags>
 						<Type type="key">30</Type>
-						<UniqueID type="key">81162382</UniqueID>
-						<EntityID type="key">{5DBB509E-36EC-4A2D-934B-49A8EF39386E}</EntityID>
-						<ItemInfoDate type="key">22/03/2017 03:24:17 p. m.</ItemInfoDate>
+						<UniqueID type="key">392485445</UniqueID>
+						<EntityID type="key">{1B6E8538-D704-4160-AFEC-5E797667A2BD}</EntityID>
+						<ItemInfoDate type="key">24/03/2017 06:42:04 p. m.</ItemInfoDate>
 						<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
 						<ItemInfoDescr type="key"/>
 						<ItemInfoAddInfoDb type="key"/>
@@ -306,9 +312,9 @@ Original file added from ..\..\mainecu.sdf [2017-3-22 14:16:14 (UTC)]
 						<Flags type="key">18692</Flags>
 						<ExtendedFlags type="key">1</ExtendedFlags>
 						<Type type="key">4</Type>
-						<UniqueID type="key">166948764</UniqueID>
-						<EntityID type="key">{A5BEB449-6E3B-4640-8D4B-25236ECBCE9A}</EntityID>
-						<ItemInfoDate type="key">22/03/2017 03:24:17 p. m.</ItemInfoDate>
+						<UniqueID type="key">181112032</UniqueID>
+						<EntityID type="key">{345530E4-F0A6-4D83-9667-D400E4574676}</EntityID>
+						<ItemInfoDate type="key">24/03/2017 06:42:04 p. m.</ItemInfoDate>
 						<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
 						<ItemInfoDescr type="key"/>
 						<ItemInfoAddInfoDb type="key"/>
@@ -482,11 +488,15 @@ Original file added from ..\..\mainecu.sdf [2017-3-22 14:16:14 (UTC)]
 	<MeasureDataManagement Version="4"/>
 	<Instrumentation Version="1">
 		<UniqueIds Version="3">
-			<Count type="key">2</Count>
+			<Count type="key">4</Count>
 			<File1 type="key">Experiment_001/Layout1</File1>
 			<Id1 type="key">0</Id1>
 			<File2 type="key">Experiment_001/Layout2</File2>
 			<Id2 type="key">1</Id2>
+			<File3 type="key">Experiment_001/Layout3</File3>
+			<Id3 type="key">2</Id3>
+			<File4 type="key">Experiment_001/Layout1_1</File4>
+			<Id4 type="key">3</Id4>
 		</UniqueIds>
 	</Instrumentation>
 	<DiagnosticsManagement/>

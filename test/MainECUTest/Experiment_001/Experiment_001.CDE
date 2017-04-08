@@ -88,6 +88,36 @@
 					<ItemInfoAddInfoDb type="key"/>
 					<ItemInfoAuthor type="key">luis</ItemInfoAuthor>
 				</item>
+				<item>
+					<Component type="key">Instrumentation</Component>
+					<Name type="key">Layout3.lay</Name>
+					<DisplayName type="key">Layout3.lay</DisplayName>
+					<Path type="key">.\Experiment Layouts</Path>
+					<Flags type="key">17472</Flags>
+					<Type type="key">10</Type>
+					<UniqueID type="key">975015538</UniqueID>
+					<EntityID type="key">{CD6CBC6B-248F-4BA5-AD89-3794431AC942}</EntityID>
+					<ItemInfoDate type="key">24/03/2017 06:24:54 p. m.</ItemInfoDate>
+					<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+					<ItemInfoDescr type="key"/>
+					<ItemInfoAddInfoDb type="key"/>
+					<ItemInfoAuthor type="key">luis</ItemInfoAuthor>
+				</item>
+				<item>
+					<Component type="key">Instrumentation</Component>
+					<Name type="key">Layout1_1.lay</Name>
+					<DisplayName type="key">Layout1_1.lay</DisplayName>
+					<Path type="key">.\Experiment Layouts</Path>
+					<Flags type="key">16448</Flags>
+					<Type type="key">10</Type>
+					<UniqueID type="key">126656305</UniqueID>
+					<EntityID type="key">{62A0ED0D-CFFB-4C2A-B91B-D8AA3DD73063}</EntityID>
+					<ItemInfoDate type="key">24/03/2017 06:28:03 p. m.</ItemInfoDate>
+					<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+					<ItemInfoDescr type="key"/>
+					<ItemInfoAddInfoDb type="key"/>
+					<ItemInfoAuthor type="key">luis</ItemInfoAuthor>
+				</item>
 			</item>
 			<item>
 				<Targets type="key">devicemanagement,platformmanagement,diagnosticsmanagement</Targets>
@@ -277,7 +307,7 @@
 		<CursorPositionLeftSL type="key">5</CursorPositionLeftSL>
 		<CursorPositionRightSL type="key">5</CursorPositionRightSL>
 		<VisibleLengthSL type="key">10</VisibleLengthSL>
-		<LastVisibleValueSL type="key">16902.4791698741</LastVisibleValueSL>
+		<LastVisibleValueSL type="key">0</LastVisibleValueSL>
 		<CompleteBufferVisibleSL type="key">0</CompleteBufferVisibleSL>
 		<GridEnabledSL type="key">0</GridEnabledSL>
 	</MeasuredDataNavigator>
@@ -351,10 +381,18 @@
 			<ShowMeasurementLinks type="key">0</ShowMeasurementLinks>
 		</ProjectExperimentSettings>
 		<MeasurementConfiguration>
-			<NextUniqueKey type="key">6</NextUniqueKey>
+			<NextUniqueKey type="key">8</NextUniqueKey>
 			<SignalList>
 				<Variable>
 					<Name type="key">Labels/BrakeTravel</Name>
+					<Platform type="key">8bdbe6bc-762c-4118-a2ba-be73cb1b1830</Platform>
+					<Active type="key">-1</Active>
+					<Signal>
+						<Raster type="key">HostService</Raster>
+					</Signal>
+				</Variable>
+				<Variable>
+					<Name type="key">Labels/Freq1</Name>
 					<Platform type="key">8bdbe6bc-762c-4118-a2ba-be73cb1b1830</Platform>
 					<Active type="key">-1</Active>
 					<Signal>
@@ -385,6 +423,38 @@
 						<Raster type="key">HostService</Raster>
 					</Signal>
 				</Variable>
+				<Variable>
+					<Name type="key">Labels/WheelSpeedFrontLeft</Name>
+					<Platform type="key">8bdbe6bc-762c-4118-a2ba-be73cb1b1830</Platform>
+					<Active type="key">-1</Active>
+					<Signal>
+						<Raster type="key">HostService</Raster>
+					</Signal>
+				</Variable>
+				<Variable>
+					<Name type="key">Labels/WheelSpeedFrontRight</Name>
+					<Platform type="key">8bdbe6bc-762c-4118-a2ba-be73cb1b1830</Platform>
+					<Active type="key">-1</Active>
+					<Signal>
+						<Raster type="key">HostService</Raster>
+					</Signal>
+				</Variable>
+				<Variable>
+					<Name type="key">Labels/WheelSpeedRearLeft</Name>
+					<Platform type="key">8bdbe6bc-762c-4118-a2ba-be73cb1b1830</Platform>
+					<Active type="key">-1</Active>
+					<Signal>
+						<Raster type="key">HostService</Raster>
+					</Signal>
+				</Variable>
+				<Variable>
+					<Name type="key">Labels/WheelSpeedRearRight</Name>
+					<Platform type="key">8bdbe6bc-762c-4118-a2ba-be73cb1b1830</Platform>
+					<Active type="key">-1</Active>
+					<Signal>
+						<Raster type="key">HostService</Raster>
+					</Signal>
+				</Variable>
 			</SignalList>
 			<Platforms>
 				<Platform>
@@ -398,8 +468,8 @@
 							<AutoRepeatBehavior type="key">1</AutoRepeatBehavior>
 							<MultiCaptureHistoryEnabled type="key">0</MultiCaptureHistoryEnabled>
 							<DownsamplingFactor type="key">1</DownsamplingFactor>
-							<StartTrigger type="key">4</StartTrigger>
-							<StopTrigger type="key">5</StopTrigger>
+							<StartTrigger type="key">6</StartTrigger>
+							<StopTrigger type="key">7</StopTrigger>
 						</PlatformTriggered>
 					</Rasters>
 					<EnabledHardwarePollingRasters/>
@@ -407,7 +477,7 @@
 			</Platforms>
 			<DurationTriggers>
 				<DurationTrigger>
-					<UniqueKey type="key">5</UniqueKey>
+					<UniqueKey type="key">7</UniqueKey>
 					<Name type="key">Duration Trigger 1</Name>
 					<Delay type="key">0</Delay>
 					<Duration type="key">60</Duration>
@@ -515,6 +585,15 @@
 							</Signal>
 						</Variable>
 						<Variable>
+							<Name type="key">Labels/Freq1</Name>
+							<Platform type="key">8bdbe6bc-762c-4118-a2ba-be73cb1b1830</Platform>
+							<PlatformDisplayName type="key">Platform</PlatformDisplayName>
+							<Recorded type="key">-1</Recorded>
+							<Signal>
+								<Raster type="key">HostService</Raster>
+							</Signal>
+						</Variable>
+						<Variable>
 							<Name type="key">Labels/ThrottlePedal1</Name>
 							<Platform type="key">8bdbe6bc-762c-4118-a2ba-be73cb1b1830</Platform>
 							<PlatformDisplayName type="key">Platform</PlatformDisplayName>
@@ -534,6 +613,42 @@
 						</Variable>
 						<Variable>
 							<Name type="key">Labels/ThrottlePedalImplausibilityStatus</Name>
+							<Platform type="key">8bdbe6bc-762c-4118-a2ba-be73cb1b1830</Platform>
+							<PlatformDisplayName type="key">Platform</PlatformDisplayName>
+							<Recorded type="key">-1</Recorded>
+							<Signal>
+								<Raster type="key">HostService</Raster>
+							</Signal>
+						</Variable>
+						<Variable>
+							<Name type="key">Labels/WheelSpeedFrontLeft</Name>
+							<Platform type="key">8bdbe6bc-762c-4118-a2ba-be73cb1b1830</Platform>
+							<PlatformDisplayName type="key">Platform</PlatformDisplayName>
+							<Recorded type="key">-1</Recorded>
+							<Signal>
+								<Raster type="key">HostService</Raster>
+							</Signal>
+						</Variable>
+						<Variable>
+							<Name type="key">Labels/WheelSpeedFrontRight</Name>
+							<Platform type="key">8bdbe6bc-762c-4118-a2ba-be73cb1b1830</Platform>
+							<PlatformDisplayName type="key">Platform</PlatformDisplayName>
+							<Recorded type="key">-1</Recorded>
+							<Signal>
+								<Raster type="key">HostService</Raster>
+							</Signal>
+						</Variable>
+						<Variable>
+							<Name type="key">Labels/WheelSpeedRearLeft</Name>
+							<Platform type="key">8bdbe6bc-762c-4118-a2ba-be73cb1b1830</Platform>
+							<PlatformDisplayName type="key">Platform</PlatformDisplayName>
+							<Recorded type="key">-1</Recorded>
+							<Signal>
+								<Raster type="key">HostService</Raster>
+							</Signal>
+						</Variable>
+						<Variable>
+							<Name type="key">Labels/WheelSpeedRearRight</Name>
 							<Platform type="key">8bdbe6bc-762c-4118-a2ba-be73cb1b1830</Platform>
 							<PlatformDisplayName type="key">Platform</PlatformDisplayName>
 							<Recorded type="key">-1</Recorded>
