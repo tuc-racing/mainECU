@@ -47,6 +47,12 @@ BO_ 3221225472 VECTOR__INDEPENDENT_SIG_MSG: 0 Vector__XXX
  SG_ Wheel_Susp_Front_Left : 0|16@1+ (1,0) [0|0] "" Vector__XXX
 
 BO_ 1792 Dashboard_Inputs: 4 Vector__XXX
+ SG_ Button4 : 12|2@1- (1,0) [0|0] "" Vector__XXX
+ SG_ Button3 : 10|2@1- (1,0) [0|0] "" Vector__XXX
+ SG_ Button2 : 8|2@1- (1,0) [0|0] "" Vector__XXX
+ SG_ Button1 : 5|2@1- (1,0) [0|0] "" Vector__XXX
+ SG_ TireType : 2|3@1- (1,0) [0|0] "" Vector__XXX
+ SG_ IgnitionStatus : 0|2@1- (1,0) [0|0] "" Vector__XXX
 
 BO_ 257 mainECU_Status: 2 MainECU
  SG_ TSAL_Status : 15|2@0- (1,0) [0|0] "" Vector__XXX
@@ -244,12 +250,12 @@ BA_DEF_DEF_  "GenEnvVarEndingSnd" "_";
 BA_DEF_DEF_  "GenEnvVarEndingDsp" "Dsp_";
 BA_DEF_DEF_  "GenNWMSleepTime" 0;
 BA_DEF_DEF_  "BusType" "CAN";
-BA_ "GenMsgSendType" BO_ 641 0;
 BA_ "GenMsgCycleTime" BO_ 641 20;
+BA_ "GenMsgSendType" BO_ 641 0;
 BA_ "GenMsgCycleTime" BO_ 1793 1000;
-BA_ "GenMsgCycleTime" BO_ 385 20;
-BA_ "GenMsgSendType" BO_ 385 0;
 BA_ "GenMsgCycleTimeFast" BO_ 385 20;
+BA_ "GenMsgSendType" BO_ 385 0;
+BA_ "GenMsgCycleTime" BO_ 385 20;
 BA_ "GenSigStartValue" SG_ 257 PowerMode 255;
 BA_ "GenSigStartValue" SG_ 641 Raw_Steering_Wheel_Signal 0;
 BA_ "GenSigStartValue" SG_ 385 Steering_Wheel_Signal 32767.1891212932;
