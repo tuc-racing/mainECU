@@ -48,12 +48,12 @@ BO_ 3221225472 VECTOR__INDEPENDENT_SIG_MSG: 0 Vector__XXX
  SG_ Wheel_Susp_Front_Left : 0|16@1+ (1,0) [0|0] "" Vector__XXX
 
 BO_ 1792 Dashboard_Inputs: 2 Vector__XXX
- SG_ Button4 : 14|2@1- (1,0) [0|0] "" Vector__XXX
- SG_ Button3 : 12|2@1- (1,0) [0|0] "" Vector__XXX
- SG_ Button2 : 10|2@1- (1,0) [0|0] "" Vector__XXX
- SG_ Button1 : 8|2@1- (1,0) [0|0] "" Vector__XXX
- SG_ TireType : 2|4@1- (1,0) [0|0] "" Vector__XXX
- SG_ IgnitionStatus : 0|2@1- (1,0) [0|0] "" Vector__XXX
+ SG_ Button4 : 9|2@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Button3 : 11|2@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Button2 : 13|2@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Button1 : 15|2@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ TireType : 7|4@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ IgnitionStatus : 1|2@0+ (1,0) [0|0] "" Vector__XXX
 
 BO_ 257 mainECU_Status: 2 MainECU
  SG_ TSAL_Status : 15|2@0- (1,0) [0|0] "" Vector__XXX
