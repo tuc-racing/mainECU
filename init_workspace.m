@@ -56,3 +56,4 @@ Simulink.defineIntEnumType('MsgStatus', ...
 calibration_init;
 indicators_init;
 maincanrx_init;
+wheelspeedsim_init;

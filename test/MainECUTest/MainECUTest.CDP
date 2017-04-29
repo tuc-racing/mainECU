@@ -262,6 +262,15 @@ Original file added from ..\..\mainecu.sdf [2017-4-12 19:31:36 (UTC)]
 
 Variable description reloaded on 14.04.2017 15:20:46 (C:\Users\luis\Documents\tuc racing\mainECU\mainECU\mainecu.sdf)
 Original file added from ..\..\mainecu.sdf [2017-4-14 13:20:25 (UTC)]
+
+Variable description reloaded on 18.04.2017 20:26:07 (C:\Users\luis\Documents\tuc racing\mainECU\mainECU\mainecu.sdf)
+Original file added from ..\..\mainecu.sdf [2017-4-18 17:48:19 (UTC)]
+
+Variable description reloaded on 19.04.2017 17:10:33 (C:\Users\luis\Documents\tuc racing\mainECU\mainECU\mainecu.sdf)
+Original file added from ..\..\mainecu.sdf [2017-4-18 17:48:19 (UTC)]
+
+Variable description reloaded on 19.04.2017 17:51:11 (C:\Users\luis\Documents\tuc racing\mainECU\mainECU\mainecu.sdf)
+Original file added from ..\..\mainecu.sdf [2017-4-18 17:48:19 (UTC)]
 </ItemInfoLog>
 					<ItemInfoAddInfoDb type="key"/>
 					<ItemInfoAuthor type="key">luis</ItemInfoAuthor>
@@ -273,9 +282,9 @@ Original file added from ..\..\mainecu.sdf [2017-4-14 13:20:25 (UTC)]
 						<Flags type="key">18692</Flags>
 						<ExtendedFlags type="key">1</ExtendedFlags>
 						<Type type="key">4</Type>
-						<UniqueID type="key">559048912</UniqueID>
-						<EntityID type="key">{8F9975F0-99A8-4628-BAA0-EF9EE04C0CF0}</EntityID>
-						<ItemInfoDate type="key">14/04/2017 15:20:46</ItemInfoDate>
+						<UniqueID type="key">466435462</UniqueID>
+						<EntityID type="key">{DB938F0F-7A56-41E7-9D34-17ECF50986BF}</EntityID>
+						<ItemInfoDate type="key">19/04/2017 17:51:11</ItemInfoDate>
 						<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
 						<ItemInfoDescr type="key"/>
 						<ItemInfoAddInfoDb type="key"/>
@@ -289,9 +298,9 @@ Original file added from ..\..\mainecu.sdf [2017-4-14 13:20:25 (UTC)]
 						<Flags type="key">18692</Flags>
 						<ExtendedFlags type="key">1</ExtendedFlags>
 						<Type type="key">4</Type>
-						<UniqueID type="key">1011896195</UniqueID>
-						<EntityID type="key">{FF9388D2-09DE-4996-B22E-FB7036FCABBF}</EntityID>
-						<ItemInfoDate type="key">14/04/2017 15:20:46</ItemInfoDate>
+						<UniqueID type="key">526069151</UniqueID>
+						<EntityID type="key">{80121F23-A24A-4AE6-B77F-78E476788BAD}</EntityID>
+						<ItemInfoDate type="key">19/04/2017 17:51:11</ItemInfoDate>
 						<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
 						<ItemInfoDescr type="key"/>
 						<ItemInfoAddInfoDb type="key"/>
@@ -305,9 +314,9 @@ Original file added from ..\..\mainecu.sdf [2017-4-14 13:20:25 (UTC)]
 						<Flags type="key">18692</Flags>
 						<ExtendedFlags type="key">1</ExtendedFlags>
 						<Type type="key">30</Type>
-						<UniqueID type="key">720166447</UniqueID>
-						<EntityID type="key">{3C321EE3-8EA8-4FFD-A1C6-4F7FA4566F93}</EntityID>
-						<ItemInfoDate type="key">14/04/2017 15:20:46</ItemInfoDate>
+						<UniqueID type="key">308879542</UniqueID>
+						<EntityID type="key">{BD517EC1-5F35-4A62-8AF4-7BA9EFBAFB5C}</EntityID>
+						<ItemInfoDate type="key">19/04/2017 17:51:11</ItemInfoDate>
 						<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
 						<ItemInfoDescr type="key"/>
 						<ItemInfoAddInfoDb type="key"/>
@@ -321,9 +330,9 @@ Original file added from ..\..\mainecu.sdf [2017-4-14 13:20:25 (UTC)]
 						<Flags type="key">18692</Flags>
 						<ExtendedFlags type="key">1</ExtendedFlags>
 						<Type type="key">4</Type>
-						<UniqueID type="key">458029379</UniqueID>
-						<EntityID type="key">{A267B08A-BFDE-49B4-B2FD-53F979843108}</EntityID>
-						<ItemInfoDate type="key">14/04/2017 15:20:46</ItemInfoDate>
+						<UniqueID type="key">26482056</UniqueID>
+						<EntityID type="key">{34BF7DBA-1064-42D4-A8C0-5AB870815025}</EntityID>
+						<ItemInfoDate type="key">19/04/2017 17:51:11</ItemInfoDate>
 						<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
 						<ItemInfoDescr type="key"/>
 						<ItemInfoAddInfoDb type="key"/>
