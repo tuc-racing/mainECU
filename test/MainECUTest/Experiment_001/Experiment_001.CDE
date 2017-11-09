@@ -118,6 +118,81 @@
 					<ItemInfoAddInfoDb type="key"/>
 					<ItemInfoAuthor type="key">luis</ItemInfoAuthor>
 				</item>
+				<item>
+					<Component type="key">Instrumentation</Component>
+					<Name type="key">Layout4.lay</Name>
+					<DisplayName type="key">Layout4.lay</DisplayName>
+					<Path type="key">.\Experiment Layouts</Path>
+					<Flags type="key">16448</Flags>
+					<Type type="key">10</Type>
+					<UniqueID type="key">567249121</UniqueID>
+					<EntityID type="key">{F0C48F6C-A2DE-4F7C-B246-68741750B71B}</EntityID>
+					<ItemInfoDate type="key">14/06/2017 14:49:39</ItemInfoDate>
+					<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+					<ItemInfoDescr type="key"/>
+					<ItemInfoAddInfoDb type="key"/>
+					<ItemInfoAuthor type="key">luis</ItemInfoAuthor>
+				</item>
+				<item>
+					<Component type="key">Instrumentation</Component>
+					<Name type="key">Layout5.lay</Name>
+					<DisplayName type="key">Layout5.lay</DisplayName>
+					<Path type="key">.\Experiment Layouts</Path>
+					<Flags type="key">16448</Flags>
+					<Type type="key">10</Type>
+					<UniqueID type="key">643344576</UniqueID>
+					<EntityID type="key">{51ABD267-9900-41A2-A624-2CF27776C8D8}</EntityID>
+					<ItemInfoDate type="key">9/9/2017 11:49:02 AM</ItemInfoDate>
+					<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+					<ItemInfoDescr type="key"/>
+					<ItemInfoAddInfoDb type="key"/>
+					<ItemInfoAuthor type="key">luis</ItemInfoAuthor>
+				</item>
+				<item>
+					<Component type="key">Instrumentation</Component>
+					<Name type="key">TP Emulation.lay</Name>
+					<DisplayName type="key">TP Emulation.lay</DisplayName>
+					<Path type="key">.\Experiment Layouts</Path>
+					<Flags type="key">16448</Flags>
+					<Type type="key">10</Type>
+					<UniqueID type="key">807778769</UniqueID>
+					<EntityID type="key">{5846DCBA-D4F4-4496-8DA4-FD5660F690C7}</EntityID>
+					<ItemInfoDate type="key">9/10/2017 3:13:29 PM</ItemInfoDate>
+					<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+					<ItemInfoDescr type="key"/>
+					<ItemInfoAddInfoDb type="key"/>
+					<ItemInfoAuthor type="key">luis</ItemInfoAuthor>
+				</item>
+				<item>
+					<Component type="key">Instrumentation</Component>
+					<Name type="key">Layout7.lay</Name>
+					<DisplayName type="key">Layout7.lay</DisplayName>
+					<Path type="key">.\Experiment Layouts</Path>
+					<Flags type="key">16448</Flags>
+					<Type type="key">10</Type>
+					<UniqueID type="key">99789836</UniqueID>
+					<EntityID type="key">{6AD7D28A-9493-449E-B0F9-47520887F42A}</EntityID>
+					<ItemInfoDate type="key">9/10/2017 3:57:15 PM</ItemInfoDate>
+					<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+					<ItemInfoDescr type="key"/>
+					<ItemInfoAddInfoDb type="key"/>
+					<ItemInfoAuthor type="key">luis</ItemInfoAuthor>
+				</item>
+				<item>
+					<Component type="key">Instrumentation</Component>
+					<Name type="key">CommTimeout.lay</Name>
+					<DisplayName type="key">CommTimeout.lay</DisplayName>
+					<Path type="key">.\Experiment Layouts</Path>
+					<Flags type="key">16448</Flags>
+					<Type type="key">10</Type>
+					<UniqueID type="key">183265485</UniqueID>
+					<EntityID type="key">{E1AF65E6-ED75-41C6-B3FB-6964B648BA4A}</EntityID>
+					<ItemInfoDate type="key">9/10/2017 9:30:28 PM</ItemInfoDate>
+					<ItemInfoPath type="key">$FPATH$</ItemInfoPath>
+					<ItemInfoDescr type="key"/>
+					<ItemInfoAddInfoDb type="key"/>
+					<ItemInfoAuthor type="key">luis</ItemInfoAuthor>
+				</item>
 			</item>
 			<item>
 				<Targets type="key">devicemanagement,platformmanagement,diagnosticsmanagement</Targets>
@@ -307,7 +382,7 @@
 		<CursorPositionLeftSL type="key">5</CursorPositionLeftSL>
 		<CursorPositionRightSL type="key">5</CursorPositionRightSL>
 		<VisibleLengthSL type="key">10</VisibleLengthSL>
-		<LastVisibleValueSL type="key">0.530210930899172</LastVisibleValueSL>
+		<LastVisibleValueSL type="key">8.79390002130735</LastVisibleValueSL>
 		<CompleteBufferVisibleSL type="key">0</CompleteBufferVisibleSL>
 		<GridEnabledSL type="key">0</GridEnabledSL>
 	</MeasuredDataNavigator>
@@ -381,8 +456,16 @@
 			<ShowMeasurementLinks type="key">0</ShowMeasurementLinks>
 		</ProjectExperimentSettings>
 		<MeasurementConfiguration>
-			<NextUniqueKey type="key">8</NextUniqueKey>
+			<NextUniqueKey type="key">10</NextUniqueKey>
 			<SignalList>
+				<Variable>
+					<Name type="key">Labels/APPSBrakePlausibility</Name>
+					<Platform type="key">8bdbe6bc-762c-4118-a2ba-be73cb1b1830</Platform>
+					<Active type="key">-1</Active>
+					<Signal>
+						<Raster type="key">HostService</Raster>
+					</Signal>
+				</Variable>
 				<Variable>
 					<Name type="key">Labels/BrakeTravel</Name>
 					<Platform type="key">8bdbe6bc-762c-4118-a2ba-be73cb1b1830</Platform>
@@ -400,6 +483,14 @@
 					</Signal>
 				</Variable>
 				<Variable>
+					<Name type="key">Labels/ThrottlePedal</Name>
+					<Platform type="key">8bdbe6bc-762c-4118-a2ba-be73cb1b1830</Platform>
+					<Active type="key">-1</Active>
+					<Signal>
+						<Raster type="key">HostService</Raster>
+					</Signal>
+				</Variable>
+				<Variable>
 					<Name type="key">Labels/ThrottlePedal1</Name>
 					<Platform type="key">8bdbe6bc-762c-4118-a2ba-be73cb1b1830</Platform>
 					<Active type="key">-1</Active>
@@ -409,6 +500,14 @@
 				</Variable>
 				<Variable>
 					<Name type="key">Labels/ThrottlePedal2</Name>
+					<Platform type="key">8bdbe6bc-762c-4118-a2ba-be73cb1b1830</Platform>
+					<Active type="key">-1</Active>
+					<Signal>
+						<Raster type="key">HostService</Raster>
+					</Signal>
+				</Variable>
+				<Variable>
+					<Name type="key">Labels/ThrottlePedal2Status</Name>
 					<Platform type="key">8bdbe6bc-762c-4118-a2ba-be73cb1b1830</Platform>
 					<Active type="key">-1</Active>
 					<Signal>
@@ -460,7 +559,36 @@
 				<Platform>
 					<Name type="key">8bdbe6bc-762c-4118-a2ba-be73cb1b1830</Name>
 					<DefaultRaster type="key">HostService</DefaultRaster>
-					<PlatformTriggers/>
+					<PlatformTriggers>
+						<PlatformTrigger>
+							<UniqueKey type="key">6</UniqueKey>
+							<Name type="key">Platform Trigger 1</Name>
+							<Condition type="key">posedge ( Labels_ThrottlePedal2Status, 4 )</Condition>
+							<Delay type="key">-2</Delay>
+							<Enabled type="key">-1</Enabled>
+							<Timeout type="key">0</Timeout>
+							<TimeoutEnabled type="key">0</TimeoutEnabled>
+							<VariableMappings>
+								<Platform type="key">8bdbe6bc-762c-4118-a2ba-be73cb1b1830</Platform>
+								<VariableMapping>
+									<Symbol type="key">Labels_ThrottlePedal2Status</Symbol>
+									<Signal type="key">Labels/ThrottlePedal2Status</Signal>
+								</VariableMapping>
+							</VariableMappings>
+						</PlatformTrigger>
+						<PlatformTrigger>
+							<UniqueKey type="key">8</UniqueKey>
+							<Name type="key">Platform Trigger 2</Name>
+							<Condition type="key"/>
+							<Delay type="key">0</Delay>
+							<Enabled type="key">0</Enabled>
+							<Timeout type="key">0</Timeout>
+							<TimeoutEnabled type="key">0</TimeoutEnabled>
+							<VariableMappings>
+								<Platform type="key"/>
+							</VariableMappings>
+						</PlatformTrigger>
+					</PlatformTriggers>
 					<Rasters>
 						<PlatformTriggered>
 							<Name type="key">HostService</Name>
@@ -477,11 +605,18 @@
 			</Platforms>
 			<DurationTriggers>
 				<DurationTrigger>
+					<UniqueKey type="key">9</UniqueKey>
+					<Name type="key">Duration Trigger 2</Name>
+					<Delay type="key">0</Delay>
+					<Duration type="key">10</Duration>
+					<Enabled type="key">-1</Enabled>
+				</DurationTrigger>
+				<DurationTrigger>
 					<UniqueKey type="key">7</UniqueKey>
 					<Name type="key">Duration Trigger 1</Name>
 					<Delay type="key">0</Delay>
-					<Duration type="key">60</Duration>
-					<Enabled type="key">-1</Enabled>
+					<Duration type="key">2</Duration>
+					<Enabled type="key">0</Enabled>
 				</DurationTrigger>
 			</DurationTriggers>
 			<SampleCountTriggers/>
@@ -576,6 +711,15 @@
 					</StorageInformation>
 					<SignalList>
 						<Variable>
+							<Name type="key">Labels/APPSBrakePlausibility</Name>
+							<Platform type="key">8bdbe6bc-762c-4118-a2ba-be73cb1b1830</Platform>
+							<PlatformDisplayName type="key">Platform</PlatformDisplayName>
+							<Recorded type="key">-1</Recorded>
+							<Signal>
+								<Raster type="key">HostService</Raster>
+							</Signal>
+						</Variable>
+						<Variable>
 							<Name type="key">Labels/BrakeTravel</Name>
 							<Platform type="key">8bdbe6bc-762c-4118-a2ba-be73cb1b1830</Platform>
 							<PlatformDisplayName type="key">Platform</PlatformDisplayName>
@@ -594,6 +738,15 @@
 							</Signal>
 						</Variable>
 						<Variable>
+							<Name type="key">Labels/ThrottlePedal</Name>
+							<Platform type="key">8bdbe6bc-762c-4118-a2ba-be73cb1b1830</Platform>
+							<PlatformDisplayName type="key">Platform</PlatformDisplayName>
+							<Recorded type="key">-1</Recorded>
+							<Signal>
+								<Raster type="key">HostService</Raster>
+							</Signal>
+						</Variable>
+						<Variable>
 							<Name type="key">Labels/ThrottlePedal1</Name>
 							<Platform type="key">8bdbe6bc-762c-4118-a2ba-be73cb1b1830</Platform>
 							<PlatformDisplayName type="key">Platform</PlatformDisplayName>
@@ -604,6 +757,15 @@
 						</Variable>
 						<Variable>
 							<Name type="key">Labels/ThrottlePedal2</Name>
+							<Platform type="key">8bdbe6bc-762c-4118-a2ba-be73cb1b1830</Platform>
+							<PlatformDisplayName type="key">Platform</PlatformDisplayName>
+							<Recorded type="key">-1</Recorded>
+							<Signal>
+								<Raster type="key">HostService</Raster>
+							</Signal>
+						</Variable>
+						<Variable>
+							<Name type="key">Labels/ThrottlePedal2Status</Name>
 							<Platform type="key">8bdbe6bc-762c-4118-a2ba-be73cb1b1830</Platform>
 							<PlatformDisplayName type="key">Platform</PlatformDisplayName>
 							<Recorded type="key">-1</Recorded>

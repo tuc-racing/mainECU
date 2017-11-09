@@ -1,0 +1,82 @@
+VERSION ""
+
+
+NS_ : 
+	NS_DESC_
+	CM_
+	BA_DEF_
+	BA_
+	VAL_
+	CAT_DEF_
+	CAT_
+	FILTER
+	BA_DEF_DEF_
+	EV_DATA_
+	ENVVAR_DATA_
+	SGTYPE_
+	SGTYPE_VAL_
+	BA_DEF_SGTYPE_
+	BA_SGTYPE_
+	SIG_TYPE_REF_
+	VAL_TABLE_
+	SIG_GROUP_
+	SIG_VALTYPE_
+	SIGTYPE_VALTYPE_
+	BO_TX_BU_
+	BA_DEF_REL_
+	BA_REL_
+	BA_DEF_DEF_REL_
+	BU_SG_REL_
+	BU_EV_REL_
+	BU_BO_REL_
+	SG_MUL_VAL_
+
+BS_:
+
+BU_: AMS
+VAL_TABLE_ State 219 "BMS_STATE_DEBUG" 128 "BMS_STATE_ERROR" 100 "BMS_STATE_SHUT_DOWN" 4 "BMS_STATE_CHARGING" 3 "BMS_STATE_WAIT_CHARGER" 2 "BMS_STATE_READY" 1 "BMS_STATE_CLOSE_RELAIS" 0 "BMS_STATE_INIT" ;
+
+
+BO_ 326 Counter_Ah: 8 AMS
+ SG_ Discharge_mAh : 39|32@0- (1,0) [0|0] "mAh" Vector__XXX
+ SG_ Charge_mAh : 7|32@0- (1,0) [0|0] "mAh" Vector__XXX
+
+BO_ 325 TemperatureStat: 7 AMS
+ SG_ SlaveTemperature : 55|8@0+ (1,50) [0|0] "C" Vector__XXX
+ SG_ SensorNumberMaxValue : 39|8@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ SensorNumberMinValue : 31|8@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ MaxTemperature : 23|8@0+ (1,50) [0|0] "C" Vector__XXX
+ SG_ MeanTemperature : 15|8@0+ (1,50) [0|0] "C" Vector__XXX
+ SG_ MinTemperature : 7|8@0+ (1,50) [0|0] "C" Vector__XXX
+
+BO_ 324 CellVoltageStat: 8 AMS
+ SG_ CellNumberMaxVoltage : 63|8@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ CellNumberMinVoltage : 55|8@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ MaxCellVoltage : 39|16@0+ (1,0) [0|0] "mV" Vector__XXX
+ SG_ MeanCellVoltage : 23|16@0+ (1,0) [0|0] "mV" Vector__XXX
+ SG_ MinCellVoltage : 7|16@0+ (1,0) [0|0] "mV" Vector__XXX
+
+BO_ 323 PackVoltage: 6 AMS
+ SG_ DCLinkVoltage : 39|16@0+ (0.01,0) [0|0] "V" Vector__XXX
+ SG_ SumAllCells : 7|16@0+ (0.01,0) [0|0] "V" Vector__XXX
+
+BO_ 322 Current: 2 AMS
+ SG_ ActualCurrentValue : 7|16@0- (0.1,0) [0|0] "A" Vector__XXX
+
+BO_ 321 Limits: 5 AMS
+ SG_ StateOfCharge : 39|8@0+ (1,0) [0|0] "%" Vector__XXX
+ SG_ MaxChargeCurrent : 23|16@0- (0.1,0) [0|0] "A" Vector__XXX
+ SG_ MaxDischargeCurrent : 7|16@0- (0.1,0) [0|0] "A" Vector__XXX
+
+BO_ 320 Status: 8 AMS
+ SG_ CellCountBalancing : 63|8@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ CellCount : 55|8@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Outputs : 15|8@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ ErrorCode : 23|32@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ State : 7|8@0+ (1,0) [0|0] "" Vector__XXX
+
+
+
+BA_DEF_  "BusType" STRING ;
+BA_DEF_DEF_  "BusType" "";
+
